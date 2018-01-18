@@ -17,23 +17,25 @@
     "npm": "5.5.1"
   },
   "dependencies": {
-    "@angular/cli": "1.6.4",
-    "@angular/compiler-cli": "^5.1.0",
-    "typescript": "^2.3.4",
     "@angular/animations": "^5.1.0",
+    "@angular/cli": "1.6.4",
     "@angular/common": "^5.1.0",
     "@angular/compiler": "^5.1.0",
+    "@angular/compiler-cli": "^5.1.0",
     "@angular/core": "^5.1.0",
     "@angular/forms": "^5.1.0",
     "@angular/http": "^5.1.0",
     "@angular/platform-browser": "^5.1.0",
     "@angular/platform-browser-dynamic": "^5.1.0",
     "@angular/router": "^5.1.0",
+    "axios": "^0.17.1",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "express": "^4.16.2",
     "rxjs": "^5.5.6",
+    "typescript": "^2.3.4",
+    "webpack": "^3.10.0",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
