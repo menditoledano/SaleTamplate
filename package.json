@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "Server.js",
+  "main": "./Server.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
