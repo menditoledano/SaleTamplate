@@ -6,7 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && node server.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -17,11 +17,11 @@
     "npm": "5.5.1"
   },
   "dependencies": {
+    "@angular-devkit/schematics": "0.0.46",
     "@angular/animations": "^5.1.0",
     "@angular/cli": "1.6.4",
     "@angular/common": "^5.1.0",
     "@angular/compiler": "^5.1.0",
-    "@angular/compiler-cli": "^5.1.0",
     "@angular/core": "^5.1.0",
     "@angular/forms": "^5.1.0",
     "@angular/http": "^5.1.0",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@angular/cli": "1.6.4",
-    "@angular/compiler-cli": "^5.1.0",
+    "@angular/compiler-cli": "^5.2.1",
     "@angular/language-service": "^5.1.0",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
