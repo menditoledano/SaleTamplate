@@ -17,7 +17,7 @@
     "npm": "5.5.1"
   },
   "dependencies": {
-    "@angular-devkit/schematics": "0.0.46",
+    "@angular-devkit/schematics":"0.0.42",
     "@angular/animations": "^5.1.0",
     "@angular/cli": "1.6.4",
     "@angular/common": "^5.1.0",
