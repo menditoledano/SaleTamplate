@@ -34,7 +34,7 @@ const routes: Routes = [
     HomePageComponent,
     FooterComponent,
     PostsComponent,
-    TestComponent
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
