@@ -10,9 +10,11 @@ import { HeaderComponent } from './header/header.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { PostsComponent } from './pages/posts/posts.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 import {Routes, RouterModule} from "@angular/router";
 import { FooterComponent } from './footer/footer.component';
+
 
 
 const routes: Routes = [
@@ -20,6 +22,7 @@ const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'posts', component: PostsComponent },
+  { path: 'register', component: RegisterComponent },
   {path: '**', component: HomePageComponent}
  ];
 
@@ -30,7 +33,8 @@ const routes: Routes = [
     AboutPageComponent,
     HomePageComponent,
     FooterComponent,
-    PostsComponent
+    PostsComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
