@@ -14,6 +14,7 @@ import { RegisterComponent } from './pages/register/register.component';
 
 import {Routes, RouterModule} from "@angular/router";
 import { FooterComponent } from './footer/footer.component';
+import { StoreComponent } from './pages/store/store.component';
 
 
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'about', component: AboutPageComponent },
   { path: 'posts', component: PostsComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'store', component: StoreComponent },
   {path: '**', component: HomePageComponent}
  ];
 
@@ -34,7 +36,8 @@ const routes: Routes = [
     HomePageComponent,
     FooterComponent,
     PostsComponent,
-    RegisterComponent
+    RegisterComponent,
+    StoreComponent
   ],
   imports: [
     BrowserModule,
