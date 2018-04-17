@@ -1,52 +1,32 @@
 
-<nav id="navbar-example" class="navbar navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a class="nav-link" href="#first">fat</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#second">@mdo</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#third">one</a>
-        <a class="dropdown-item" href="#two">two</a>
-        <div role="separator" class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#three">three</a>
-      </div>
-    </li>
-  </ul>
-</nav>
-
 
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#"><input type="image" height="80"  src="../../assets/1j+ojl1FOMkX9WypfBe43D6kiveCqBBInxnEwXs1M3EMoAJtlSIsg...Vt8fw7.png" class="d-inline-block"/>
+  <a class="navbar-brand" href="#"><input type="image" height="80"  src="../../assets/1j+ojl1FOMkX9WypfBe43D6kiveCqBBInxnEwXs1M3EMoAJtlSIsg...Vt8fw7.png" class="d-inline-block img-responsive"/>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" style="background-color:#f8f9fa;"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/about']" >   About   </a>
+        <a class="nav-link" style="background-color:#f8f9fa;" [routerLink]="['/about']" >   About   </a>
       </li>
       <li class="nav-item">
-          <a class="nav-link" [routerLink]="['/register']" >   Register   </a>
-        </li>
+        <a class="nav-link" style="background-color:#f8f9fa;" [routerLink]="['/store']">  Store </a>
+      </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="background-color:#f8f9fa;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           More
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item"[routerLink]="['/posts']">   Posts   </a>
+          <a class="dropdown-item"  [routerLink]="['/posts']">   Posts   </a>
           <a class="dropdown-item" [routerLink]="['/store']">Store</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
@@ -56,8 +36,8 @@
     </ul>
   
   </div>
+  
 </nav>
 <br>
 <br>
-<br>
-<br>
+

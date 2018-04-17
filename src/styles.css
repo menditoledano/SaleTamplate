@@ -1,44 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
 
-
-/* .item_pack{
-    color: red;
-    margin: 12px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    margin-top: 10px;
-  }
-  .pack_info{
-    color: red;
-    margin: 5px;
-    border: 3px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  .price{
-      font-size: 50px;
-      font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .title{
-      color: blue;
-      font-size: 40px;
-      
-
-
-  } */
- 
-  /* Remove the navbar's default margin-bottom and rounded borders */ 
-  .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-     /* background-color: rgb(213, 253, 253); */
-  }
-  
-  /* Add a gray background color and some padding to the footer */
- 
-  
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin:center;
@@ -51,4 +11,11 @@
   .carousel-caption {
     display: none; 
   }
+}
+body{
+  
+  
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  
 }

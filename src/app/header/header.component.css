@@ -1,4 +1,13 @@
-.navbar {
-    min-height: 50px;
-    max-height: 70px;
-  }
+
+  .navbar {
+    /* min-height: 50px; */
+    /* max-height: 70px; */
+  
+    font-size: 18px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    /* height: 75px; */
+    max-height: 60px;
+    min-height: 60px;
+}
