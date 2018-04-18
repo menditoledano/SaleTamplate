@@ -21,7 +21,7 @@
     width:100%;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'); */
 body {
   background-color: #f8f8f8;
   font-family: "Roboto", sans-serif;
@@ -29,7 +29,7 @@ body {
 }
 
 .row {
-  min-height: 50vh;
+  min-height: 35vh;
 }
 
 .card {
@@ -103,7 +103,7 @@ body {
   border-radius: 0;
   padding: 0.75rem 1.25rem;
   letter-spacing: 1px;
-}
+} */
 
 .btn-gradient {
   background-color: #f2f2f2;

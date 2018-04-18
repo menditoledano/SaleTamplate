@@ -1,12 +1,12 @@
 
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
+    width: 100%;
     margin:center;
     min-height:300px;
     max-height:500px;
 }
 
-/* Hide the carousel text when the screen is less than 600 pixels wide */
+
 @media (max-width: 600px) {
   .carousel-caption {
     display: none; 

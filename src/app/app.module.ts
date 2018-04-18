@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-
+import 'bootstrap';
 // Import the Http Module and our Data Service
 import { HttpModule } from '@angular/http';
 import { DataService } from './data.service';
@@ -12,7 +12,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { PostsComponent } from './pages/posts/posts.component';
 import { RegisterComponent } from './pages/register/register.component';
 
-import {Routes, RouterModule} from "@angular/router";
+import {Routes, RouterModule} from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { StoreComponent } from './pages/store/store.component';
 
