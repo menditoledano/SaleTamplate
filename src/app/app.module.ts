@@ -19,7 +19,6 @@ import { StoreComponent } from './pages/store/store.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomePageComponent },
   { path: 'home', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'posts', component: PostsComponent },
