@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 // Import the Http Module and our Data Service
 import { HttpModule } from '@angular/http';
@@ -40,7 +42,10 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    HttpModule ,             // <-Add HttpModule
+    HttpModule ,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatProgressSpinnerModule,           // <-Add HttpModule
     RouterModule.forRoot(routes, {useHash: true})
   ],
   providers: [DataService, PostsService], // <-Add DataService
