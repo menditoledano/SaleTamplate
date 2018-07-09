@@ -1,35 +1,197 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400'); */
+  /*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 350px) {  
+    .Sim-card-for-USA {
+        width: 120px;
+        height: 61px;
+        font-family: Montserrat;
+        font-size: 26.9px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        color: #ffffff;
+        color: var(--white);
+        bottom: 0;
+        top: 15%;
+      }
+      .You-will-get-the-sim {
+        width: 180px;
+        height: 30px;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.6;
+        letter-spacing: normal;
+        color: #ffffff;
+        color: var(--white);
+        bottom: 0;
+        top: 38%;
+      }
+      .Rectangle-6-Copy-2 {
+        width: 10px;
+        height: 5px;
+        border-radius: 20.6px;
+        top: 63%;
+        transform: translateY(-50%);
+        max-height: 20px;
+        max-width: 80px;
+        /* background-size: 20% 20%; */
+      }
+
+  
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+   
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .Sim-card-for-USA {
+        width: 300px;
+        height: 120px;
+        font-family: Montserrat;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: norma1pxl;
+        color: #ffffff;
+        color: var(--white);
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 30%;
+      }
+
+      .You-will-get-the-sim {
+        width: 350px;
+        height: 100px;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing:0.5px;
+        color: #ffffff;
+        color: var(--white);
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50%;
+      }
+
+      .Rectangle-6-Copy-2 {
+        
+         font-family: Montserrat;
+         font-style: bold;
+         font-weight: 700;
+         src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+     
+         font-size: 18px;
+         width: 220px;
+         height: 42px;
+         border-radius:23.6px;
+         background-color: #ffc410;
+         color: #2424cf;
+         top: 63%;
+      
+         
+         line-height: 1.13;
+         letter-spacing: normal;
+         
+        
+     
+         transform: translateY(-50%);
+        
+       }
+    
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .Sim-card-for-USA {
+        width: 300px;
+        height: 120px;
+        font-family: Montserrat;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.13;
+        letter-spacing: norma1pxl;
+        color: #ffffff;
+        color: var(--white);
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 30%;
+      }
+
+      .You-will-get-the-sim {
+        width: 350px;
+        height: 100px;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing:0.5px;
+        color: #ffffff;
+        color: var(--white);
+        transform: translateY(-50%);
+        bottom: 0;
+        top: 50%;
+      }
+
+      .Rectangle-6-Copy-2 {
+        
+         font-family: Montserrat;
+         font-style: bold;
+         font-weight: 700;
+         src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+     
+         font-size: 18px;
+         width: 220px;
+         height: 42px;
+         border-radius:23.6px;
+         background-color: #ffc410;
+         color: #2424cf;
+         top: 63%;
+      
+         max-height: 42px;
+         max-width: 220px;
+         line-height: 1.13;
+         letter-spacing: normal;
+         
+        
+     
+         transform: translateY(-50%);
+        
+       }
+  }
 
 
-/* .infoBox1{
-	background-color: wheat;
-	border:10px solid rgba(62, 56, 138, 0.733);
-}
 
-.infoBox2{
-	background-color: wheat;
-	border:10px solid rgba(62, 56, 138, 0.733);
-}
-.infoBox3{
-	background-color: wheat;
-	border:10px solid rgba(62, 56, 138, 0.733);
-} */
 /* 
-.MainOptions{
-    border:10px solid #ee3e64;
-}  */
-
-.img-class{
-	height:250px;
-    width:100%;
-}
-
-/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700'); */
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
+ 
+} */
 
 .row {
   min-height: 35vh;
@@ -125,7 +287,7 @@ body {
 
 
 
-/*  */
+
 
 body{
     margin: 0;
@@ -251,13 +413,7 @@ section{
 }
 
 
-.bridge {
-    /* width: 512px;
-    height: 218.5px;  */
-    /* object-fit: contain; */
-    /* min-height: 500px */
-  }
-  .Sim-card-for-USA {
+  /* .Sim-card-for-USA {
     width: 300px;
     height: 120px;
     font-family: Montserrat;
@@ -272,46 +428,8 @@ section{
     transform: translateY(-50%);
     bottom: 0;
     top: 30%;
-  }
-  .You-will-get-the-sim {
-    width: 350px;
-    height: 100px;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.4;
-    letter-spacing:0.5px;
-    color: #ffffff;
-    color: var(--white);
-    transform: translateY(-50%);
-    bottom: 0;
-    top: 50%;
-  }
-  .Rectangle-6-Copy-2 {
-   
-    font-family: Montserrat;
-    font-style: bold;
-    font-weight: 700;
-    src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+  } */
+ 
+ 
 
-    font-size: 18px;
-    width: 220px;
-    height: 42px;
-    border-radius:23.6px;
-    background-color: #ffc410;
-    color: #2424cf;
-    top: 63%;
-    /* font-weight: bold;
-    font-style: normal;
-    font-stretch: normal; */
-    
-    line-height: 1.13;
-    letter-spacing: normal;
-    
-   
-
-    transform: translateY(-50%);
-   
-  }
+  
