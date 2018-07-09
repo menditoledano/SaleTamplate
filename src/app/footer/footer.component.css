@@ -1,0 +1,8 @@
+@media (min-width: 350px) {  
+ 
+.footer{
+    bottom: 0;
+    /* height: 500px; */
+    min-height:20%;
+}
+}
