@@ -4,8 +4,8 @@ import { AppComponent } from "./app.component";
 import { MatButtonModule, MatCheckboxModule } from "@angular/material";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
-// Import the Http Module and our Data Service
-import { HttpModule } from "@angular/http";
+// Import the HttpClient  Module and our Data Service
+import { HttpClientModule } from "@angular/common/http";
 // import { DataService } from './data.service';
 // import { PostsService } from './posts.service';
 import { HeaderComponent } from "./header/header.component";
@@ -40,10 +40,10 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    HttpModule,
+    HttpClientModule,
     MatButtonModule,
     MatCheckboxModule,
-    MatProgressSpinnerModule, // <-Add HttpModule
+    MatProgressSpinnerModule, // <-Add HttpClientModule
     RouterModule.forRoot(routes, { useHash: true })
   ],
   providers: [], // <-Add DataService
