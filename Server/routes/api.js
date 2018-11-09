@@ -25,11 +25,11 @@ router.get('/', (req, res) => {
 router.post('/sendEmail', (req, res) => {
   
   var message	= {
-    text:	"i hope this works", 
-    from:	" sales@sims4usa.com", 
-    to:		"menditoledano@gmail.com, sales@sims4usa.com",
-    cc:		"",
-    subject:	"testing emailjs",
+    text:'name: '+req.body.name + '\nfrom mail:  '+req.body.emailAddress+'  \nsent you message from the website: \n'	+ req.body.message+
+    '\n Phone number: '+ req.body.phone, 
+    from: req.body.emailAddress, 
+    to:		"sales@sims4usa.com",
+    subject:	"email from " + req.body.name,
     
  };
   server.send(message, function(err, message) { console.log(err || message); });

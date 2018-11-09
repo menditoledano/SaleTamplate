@@ -18,13 +18,8 @@ export class EmailService {
   _baseUrl = 'https://api.emailjs.com/api/v1.0/email';
   constructor(private http: HttpClient) {}
 
-  sendEmail () {
-    this.http.post("/api/sendEmail",
-    {
-        "name": "Customer004",
-        "email": "customer004@email.com",
-        "tel": "0000252525"
-    })
+  sendEmail (data) {
+    this.http.post("/api/sendEmail",data)
     .subscribe(
         data => {
             console.log("POST Request is successful ", data);

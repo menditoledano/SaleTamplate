@@ -1,5 +1,6 @@
 import { EmailService } from './../../email.service';
 import { Component, OnInit } from '@angular/core';
+import { Email } from '../../models/email';
 
 
 @Component({
@@ -9,10 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
+
   constructor(private _emailService: EmailService) { }
+  email = new Email('','','','');
 
  sendEmail() {
-    this._emailService.sendEmail();
+    this._emailService.sendEmail(this.email);
   }
 
   ngOnInit() {

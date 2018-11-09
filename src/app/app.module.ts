@@ -2,6 +2,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { MatButtonModule, MatCheckboxModule } from "@angular/material";
+import { FormsModule }   from '@angular/forms';
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 
 // Import the HttpClient  Module and our Data Service
@@ -40,6 +41,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule,
     MatButtonModule,
     MatCheckboxModule,
