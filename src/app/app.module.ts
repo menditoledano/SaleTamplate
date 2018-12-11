@@ -18,7 +18,7 @@ import { RegisterComponent } from "./pages/register/register.component";
 import { Routes, RouterModule } from "@angular/router";
 import { FooterComponent } from "./footer/footer.component";
 import { StoreComponent } from "./pages/store/store.component";
-import { MustMatchDirective } from './_helpers/must-match.directive';
+
 
 const routes: Routes = [
   { path: "home", component: HomePageComponent },
@@ -32,7 +32,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    MustMatchDirective,
     HeaderComponent,
     AboutPageComponent,
     HomePageComponent,
