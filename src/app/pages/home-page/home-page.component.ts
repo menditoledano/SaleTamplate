@@ -45,8 +45,8 @@ export class HomePageComponent implements OnInit {
       if (result.value) {
         this._emailService.sendEmail(this.email);
         swal(
-          'your mail is sent',
-          'Thank you for conact us!',
+          'Your email has been sent',
+          'Thanks for contacting us!',
           'success'
         )
       // For more information about handling dismissals please visit
