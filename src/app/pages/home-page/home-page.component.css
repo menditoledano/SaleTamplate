@@ -419,6 +419,11 @@ section {
   letter-spacing: 0.5px;
 }
 
+.img-thumbnail{
+  background-color:transparent ;
+  border: none;
+}
+
 /* .Sim-card-for-USA {
     width: 300px;
     height: 120px;
