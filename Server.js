@@ -41,3 +41,21 @@ const server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 server.listen(port, () => console.log(`API running on localhost:${port}`));
+
+
+
+
+
+
+// var gulp = require('gulp');
+// var sonarqubeScanner = require('sonarqube-scanner');
+ 
+// gulp.task('default', function(callback) {
+//   sonarqubeScanner({
+//     serverUrl : "https://sonarcloud.io",
+//     token : "07f64ccb9ae9deb9cfe4ba1b90442bac08bae41d",
+//     options : {
+      
+//     }
+//   }, callback);
+// });

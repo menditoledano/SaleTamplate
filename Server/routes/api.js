@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
 router.post('/sendEmail', (req, res) => {
   
   var message	= {
-    text:'name: '+req.body.name + '\nfrom mail:  '+req.body.emailAddress+'  \nsent you message from the website: \n'	+ req.body.message+
+    text:'name: '+req.body.fullName + '\nfrom mail:  '+req.body.emailAddress+'  \nsent you message from the website: \n'	+ req.body.message+
     '\n Phone number: '+ req.body.phone, 
     from: req.body.emailAddress, 
     to:		"sales@sims4usa.com",
