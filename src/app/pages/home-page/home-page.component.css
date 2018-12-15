@@ -10,9 +10,7 @@ Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 350px) {
-  /* body{
-        line-height: 2; 
-      } */
+
   .carousel-inner img {
     width: 100%;
     /* margin:center; */
