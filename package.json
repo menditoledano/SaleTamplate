@@ -13,7 +13,7 @@
     "postinstall": "ng build"
   },
   "engines": {
-    "node": "^12.4.0",
+    "node": "^10.15.3",
     "npm": "^6.4.1"
   },
   "dependencies": {
