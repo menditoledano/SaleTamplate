@@ -33,7 +33,7 @@ export class HomePageComponent implements OnInit {
 
  sendEmail() {
     
-    swal({
+    swal.fire({
       title: 'Are you sure?',
       text: 'sent you email?!',
       type: 'question',
@@ -44,7 +44,7 @@ export class HomePageComponent implements OnInit {
     }).then((result) => {
       if (result.value) {
         this._emailService.sendEmail(this.email);
-        swal(
+        swal.fire(
           'Your email has been sent',
           'Thanks for contacting us!',
           'success'
@@ -52,7 +52,7 @@ export class HomePageComponent implements OnInit {
       // For more information about handling dismissals please visit
       // https://sweetalert2.github.io/#handling-dismissals
       } else if (result.dismiss === swal.DismissReason.cancel) {
-        swal(
+        swal.fire(
           'Cancelled',
           'Your mail is cancaled',
           'error'
