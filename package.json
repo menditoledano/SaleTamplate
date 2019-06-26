@@ -4,9 +4,10 @@
   "license": "MIT",
   "main": "server.js",
   "scripts": {
+    "heroku-postbuild": "ng build --prod",
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build && node server.js",
+    "start": "node server.js",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
