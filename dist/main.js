@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "../node_modules/raw-loader/index.js!./app/app.component.html":
-/*!***********************************************************!*\
-  !*** ../node_modules/raw-loader!./app/app.component.html ***!
-  \***********************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/app.component.html":
+/*!**************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/app.component.html ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11,10 +11,10 @@ module.exports = "<app-header></app-header>\n\n            <router-outlet></rout
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/index.js!./app/footer/footer.component.html":
-/*!*********************************************************************!*\
-  !*** ../node_modules/raw-loader!./app/footer/footer.component.html ***!
-  \*********************************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/footer/footer.component.html":
+/*!************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/footer/footer.component.html ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22,10 +22,10 @@ module.exports = "<!-- FOOTER -->\n<footer class=\"footer px-4\">\n\n  <p>&copy;
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/index.js!./app/header/header.component.html":
-/*!*********************************************************************!*\
-  !*** ../node_modules/raw-loader!./app/header/header.component.html ***!
-  \*********************************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/header/header.component.html":
+/*!************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/header/header.component.html ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -33,10 +33,10 @@ module.exports = "\n\n\n\n\n<nav class=\"navbar navbar-expand-lg fixed-top\">\n 
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/index.js!./app/pages/about-page/about-page.component.html":
-/*!***********************************************************************************!*\
-  !*** ../node_modules/raw-loader!./app/pages/about-page/about-page.component.html ***!
-  \***********************************************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/about-page/about-page.component.html":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/about-page/about-page.component.html ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -44,10 +44,10 @@ module.exports = "<br>\n<br>\n\n<div id=\"about\" class=\"container text-center\
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/index.js!./app/pages/home-page/home-page.component.html":
-/*!*********************************************************************************!*\
-  !*** ../node_modules/raw-loader!./app/pages/home-page/home-page.component.html ***!
-  \*********************************************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/home-page/home-page.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/home-page/home-page.component.html ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -55,10 +55,10 @@ module.exports = "<div id=\"demo\" class=\"carousel slide  \" data-ride=\"carous
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/index.js!./app/pages/register/register.component.html":
-/*!*******************************************************************************!*\
-  !*** ../node_modules/raw-loader!./app/pages/register/register.component.html ***!
-  \*******************************************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/register/register.component.html":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/register/register.component.html ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -66,10 +66,10 @@ module.exports = "<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<div class=\"contain
 
 /***/ }),
 
-/***/ "../node_modules/raw-loader/index.js!./app/pages/store/store.component.html":
-/*!*************************************************************************!*\
-  !*** ../node_modules/raw-loader!./app/pages/store/store.component.html ***!
-  \*************************************************************************/
+/***/ "./node_modules/raw-loader/index.js!./src/app/pages/store/store.component.html":
+/*!****************************************************************************!*\
+  !*** ./node_modules/raw-loader!./src/app/pages/store/store.component.html ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -77,10 +77,10 @@ module.exports = "\n<br>\n<br>\n<br>\n<br>\n\n<div class=\"container\">\n    \n<
 
 /***/ }),
 
-/***/ "./$$_lazy_route_resource lazy recursive":
-/*!******************************************************!*\
-  !*** ./$$_lazy_route_resource lazy namespace object ***!
-  \******************************************************/
+/***/ "./src/$$_lazy_route_resource lazy recursive":
+/*!**********************************************************!*\
+  !*** ./src/$$_lazy_route_resource lazy namespace object ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -96,14 +96,14 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
-/***/ "./app/app.component.css":
-/*!*******************************!*\
-  !*** ./app/app.component.css ***!
-  \*******************************/
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -111,17 +111,17 @@ module.exports = "\n@import url(https://fonts.googleapis.com/css?family=Montserr
 
 /***/ }),
 
-/***/ "./app/app.component.ts":
-/*!******************************!*\
-  !*** ./app/app.component.ts ***!
-  \******************************/
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
 /*! exports provided: AppComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -137,8 +137,8 @@ var AppComponent = /** @class */ (function () {
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: "app-root",
-            template: __webpack_require__(/*! raw-loader!./app.component.html */ "../node_modules/raw-loader/index.js!./app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./app/app.component.css")]
+            template: __webpack_require__(/*! raw-loader!./app.component.html */ "./node_modules/raw-loader/index.js!./src/app/app.component.html"),
+            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
         })
     ], AppComponent);
     return AppComponent;
@@ -148,30 +148,30 @@ var AppComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/app.module.ts":
-/*!***************************!*\
-  !*** ./app/app.module.ts ***!
-  \***************************/
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
 /*! exports provided: AppModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./app/app.component.ts");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "../node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "../node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/progress-spinner */ "../node_modules/@angular/material/esm5/progress-spinner.es5.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "./app/header/header.component.ts");
-/* harmony import */ var _pages_about_page_about_page_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/about-page/about-page.component */ "./app/pages/about-page/about-page.component.ts");
-/* harmony import */ var _pages_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/home-page/home-page.component */ "./app/pages/home-page/home-page.component.ts");
-/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/register/register.component */ "./app/pages/register/register.component.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ "../node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./footer/footer.component */ "./app/footer/footer.component.ts");
-/* harmony import */ var _pages_store_store_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/store/store.component */ "./app/pages/store/store.component.ts");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/esm5/progress-spinner.es5.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./header/header.component */ "./src/app/header/header.component.ts");
+/* harmony import */ var _pages_about_page_about_page_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/about-page/about-page.component */ "./src/app/pages/about-page/about-page.component.ts");
+/* harmony import */ var _pages_home_page_home_page_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/home-page/home-page.component */ "./src/app/pages/home-page/home-page.component.ts");
+/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _pages_store_store_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/store/store.component */ "./src/app/pages/store/store.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -239,18 +239,18 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/email.service.ts":
-/*!******************************!*\
-  !*** ./app/email.service.ts ***!
-  \******************************/
+/***/ "./src/app/email.service.ts":
+/*!**********************************!*\
+  !*** ./src/app/email.service.ts ***!
+  \**********************************/
 /*! exports provided: EmailService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmailService", function() { return EmailService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -295,10 +295,10 @@ var EmailService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/footer/footer.component.css":
-/*!*****************************************!*\
-  !*** ./app/footer/footer.component.css ***!
-  \*****************************************/
+/***/ "./src/app/footer/footer.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/footer/footer.component.css ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -306,17 +306,17 @@ module.exports = "@media (min-width: 350px) {  \n \n.footer{\n    bottom: 0;\n  
 
 /***/ }),
 
-/***/ "./app/footer/footer.component.ts":
-/*!****************************************!*\
-  !*** ./app/footer/footer.component.ts ***!
-  \****************************************/
+/***/ "./src/app/footer/footer.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/footer/footer.component.ts ***!
+  \********************************************/
 /*! exports provided: FooterComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -335,8 +335,8 @@ var FooterComponent = /** @class */ (function () {
     FooterComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-footer',
-            template: __webpack_require__(/*! raw-loader!./footer.component.html */ "../node_modules/raw-loader/index.js!./app/footer/footer.component.html"),
-            styles: [__webpack_require__(/*! ./footer.component.css */ "./app/footer/footer.component.css")]
+            template: __webpack_require__(/*! raw-loader!./footer.component.html */ "./node_modules/raw-loader/index.js!./src/app/footer/footer.component.html"),
+            styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/footer/footer.component.css")]
         }),
         __metadata("design:paramtypes", [])
     ], FooterComponent);
@@ -347,10 +347,10 @@ var FooterComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/header/header.component.css":
-/*!*****************************************!*\
-  !*** ./app/header/header.component.css ***!
-  \*****************************************/
+/***/ "./src/app/header/header.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/header/header.component.css ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -358,17 +358,17 @@ module.exports = "\n  .navbar {\n    /* min-height: 50px; */\n    /* max-height:
 
 /***/ }),
 
-/***/ "./app/header/header.component.ts":
-/*!****************************************!*\
-  !*** ./app/header/header.component.ts ***!
-  \****************************************/
+/***/ "./src/app/header/header.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/header/header.component.ts ***!
+  \********************************************/
 /*! exports provided: HeaderComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -388,8 +388,8 @@ var HeaderComponent = /** @class */ (function () {
     HeaderComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-header',
-            template: __webpack_require__(/*! raw-loader!./header.component.html */ "../node_modules/raw-loader/index.js!./app/header/header.component.html"),
-            styles: [__webpack_require__(/*! ./header.component.css */ "./app/header/header.component.css")]
+            template: __webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/index.js!./src/app/header/header.component.html"),
+            styles: [__webpack_require__(/*! ./header.component.css */ "./src/app/header/header.component.css")]
         }),
         __metadata("design:paramtypes", [])
     ], HeaderComponent);
@@ -400,10 +400,10 @@ var HeaderComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/models/email.ts":
-/*!*****************************!*\
-  !*** ./app/models/email.ts ***!
-  \*****************************/
+/***/ "./src/app/models/email.ts":
+/*!*********************************!*\
+  !*** ./src/app/models/email.ts ***!
+  \*********************************/
 /*! exports provided: Email */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -430,10 +430,10 @@ var Email = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/pages/about-page/about-page.component.css":
-/*!*******************************************************!*\
-  !*** ./app/pages/about-page/about-page.component.css ***!
-  \*******************************************************/
+/***/ "./src/app/pages/about-page/about-page.component.css":
+/*!***********************************************************!*\
+  !*** ./src/app/pages/about-page/about-page.component.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -441,17 +441,17 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 
 /***/ }),
 
-/***/ "./app/pages/about-page/about-page.component.ts":
-/*!******************************************************!*\
-  !*** ./app/pages/about-page/about-page.component.ts ***!
-  \******************************************************/
+/***/ "./src/app/pages/about-page/about-page.component.ts":
+/*!**********************************************************!*\
+  !*** ./src/app/pages/about-page/about-page.component.ts ***!
+  \**********************************************************/
 /*! exports provided: AboutPageComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutPageComponent", function() { return AboutPageComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -470,8 +470,8 @@ var AboutPageComponent = /** @class */ (function () {
     AboutPageComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-about-page',
-            template: __webpack_require__(/*! raw-loader!./about-page.component.html */ "../node_modules/raw-loader/index.js!./app/pages/about-page/about-page.component.html"),
-            styles: [__webpack_require__(/*! ./about-page.component.css */ "./app/pages/about-page/about-page.component.css")]
+            template: __webpack_require__(/*! raw-loader!./about-page.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/about-page/about-page.component.html"),
+            styles: [__webpack_require__(/*! ./about-page.component.css */ "./src/app/pages/about-page/about-page.component.css")]
         }),
         __metadata("design:paramtypes", [])
     ], AboutPageComponent);
@@ -482,10 +482,10 @@ var AboutPageComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/pages/home-page/home-page.component.css":
-/*!*****************************************************!*\
-  !*** ./app/pages/home-page/home-page.component.css ***!
-  \*****************************************************/
+/***/ "./src/app/pages/home-page/home-page.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/pages/home-page/home-page.component.css ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -493,20 +493,20 @@ module.exports = "/*\n####################################################\nM E 
 
 /***/ }),
 
-/***/ "./app/pages/home-page/home-page.component.ts":
-/*!****************************************************!*\
-  !*** ./app/pages/home-page/home-page.component.ts ***!
-  \****************************************************/
+/***/ "./src/app/pages/home-page/home-page.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/pages/home-page/home-page.component.ts ***!
+  \********************************************************/
 /*! exports provided: HomePageComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageComponent", function() { return HomePageComponent; });
-/* harmony import */ var _email_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../email.service */ "./app/email.service.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _models_email__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../models/email */ "./app/models/email.ts");
-/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sweetalert2 */ "../node_modules/sweetalert2/dist/sweetalert2.all.js");
+/* harmony import */ var _email_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../email.service */ "./src/app/email.service.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _models_email__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../models/email */ "./src/app/models/email.ts");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! sweetalert2 */ "./node_modules/sweetalert2/dist/sweetalert2.all.js");
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_3__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -563,8 +563,8 @@ var HomePageComponent = /** @class */ (function () {
     HomePageComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-home-page',
-            template: __webpack_require__(/*! raw-loader!./home-page.component.html */ "../node_modules/raw-loader/index.js!./app/pages/home-page/home-page.component.html"),
-            styles: [__webpack_require__(/*! ./home-page.component.css */ "./app/pages/home-page/home-page.component.css")]
+            template: __webpack_require__(/*! raw-loader!./home-page.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/home-page/home-page.component.html"),
+            styles: [__webpack_require__(/*! ./home-page.component.css */ "./src/app/pages/home-page/home-page.component.css")]
         }),
         __metadata("design:paramtypes", [_email_service__WEBPACK_IMPORTED_MODULE_0__["EmailService"]])
     ], HomePageComponent);
@@ -575,10 +575,10 @@ var HomePageComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/pages/register/register.component.css":
-/*!***************************************************!*\
-  !*** ./app/pages/register/register.component.css ***!
-  \***************************************************/
+/***/ "./src/app/pages/register/register.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/pages/register/register.component.css ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -586,17 +586,17 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 
 /***/ }),
 
-/***/ "./app/pages/register/register.component.ts":
-/*!**************************************************!*\
-  !*** ./app/pages/register/register.component.ts ***!
-  \**************************************************/
+/***/ "./src/app/pages/register/register.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/pages/register/register.component.ts ***!
+  \******************************************************/
 /*! exports provided: RegisterComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegisterComponent", function() { return RegisterComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -615,8 +615,8 @@ var RegisterComponent = /** @class */ (function () {
     RegisterComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-register',
-            template: __webpack_require__(/*! raw-loader!./register.component.html */ "../node_modules/raw-loader/index.js!./app/pages/register/register.component.html"),
-            styles: [__webpack_require__(/*! ./register.component.css */ "./app/pages/register/register.component.css")]
+            template: __webpack_require__(/*! raw-loader!./register.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/register/register.component.html"),
+            styles: [__webpack_require__(/*! ./register.component.css */ "./src/app/pages/register/register.component.css")]
         }),
         __metadata("design:paramtypes", [])
     ], RegisterComponent);
@@ -627,10 +627,10 @@ var RegisterComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./app/pages/store/store.component.css":
-/*!*********************************************!*\
-  !*** ./app/pages/store/store.component.css ***!
-  \*********************************************/
+/***/ "./src/app/pages/store/store.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/pages/store/store.component.css ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -638,17 +638,17 @@ module.exports = "\n@import url(\"https://fonts.googleapis.com/css?family=Roboto
 
 /***/ }),
 
-/***/ "./app/pages/store/store.component.ts":
-/*!********************************************!*\
-  !*** ./app/pages/store/store.component.ts ***!
-  \********************************************/
+/***/ "./src/app/pages/store/store.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/pages/store/store.component.ts ***!
+  \************************************************/
 /*! exports provided: StoreComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StoreComponent", function() { return StoreComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -667,8 +667,8 @@ var StoreComponent = /** @class */ (function () {
     StoreComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-store',
-            template: __webpack_require__(/*! raw-loader!./store.component.html */ "../node_modules/raw-loader/index.js!./app/pages/store/store.component.html"),
-            styles: [__webpack_require__(/*! ./store.component.css */ "./app/pages/store/store.component.css")]
+            template: __webpack_require__(/*! raw-loader!./store.component.html */ "./node_modules/raw-loader/index.js!./src/app/pages/store/store.component.html"),
+            styles: [__webpack_require__(/*! ./store.component.css */ "./src/app/pages/store/store.component.css")]
         }),
         __metadata("design:paramtypes", [])
     ], StoreComponent);
@@ -679,10 +679,10 @@ var StoreComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./environments/environment.ts":
-/*!*************************************!*\
-  !*** ./environments/environment.ts ***!
-  \*************************************/
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
 /*! exports provided: environment */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -700,19 +700,19 @@ var environment = {
 
 /***/ }),
 
-/***/ "./main.ts":
-/*!*****************!*\
-  !*** ./main.ts ***!
-  \*****************/
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "../node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
-/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./app/app.module.ts");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./environments/environment.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 
 
 
@@ -727,13 +727,13 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /***/ }),
 
 /***/ 0:
-/*!***********************!*\
-  !*** multi ./main.ts ***!
-  \***********************/
+/*!***************************!*\
+  !*** multi ./src/main.ts ***!
+  \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/menditoledano/Desktop/SaleTamplate/src/main.ts */"./main.ts");
+module.exports = __webpack_require__(/*! /Users/menditoledano/Desktop/SaleTamplate/src/main.ts */"./src/main.ts");
 
 
 /***/ })
