@@ -479,7 +479,7 @@ section {
 .yelloSim {
   width: 115%;
   z-index: -1;
-  top: 140%;
+  top: -55%;
   left: -6%;
   position: relative;
 }
@@ -529,7 +529,7 @@ section {
 
 .callPhone {
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 22px;
   width: 38%;
   height: 2.8rem;
   object-fit: contain;
@@ -550,7 +550,7 @@ section {
 }
 .sendEmail{
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 22px;
   width: 38%;
   height: 2.8rem;
   object-fit: contain;
@@ -575,3 +575,19 @@ section {
   border-radius: 1.25rem !important;
 }
 
+.featuredPlans{
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight:100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.1;
+  letter-spacing: -8.4px;
+  text-align: center;
+  color: #3638d5;
+
+}
+.underScore{
+  color:#ffc516;
+
+}

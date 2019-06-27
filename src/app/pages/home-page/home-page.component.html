@@ -38,7 +38,9 @@
 
     <input type="image" src="../../../assets/mainAirPlane.jpg" class="" style="height: 350x; width:100%">
   </div>
-
+  <br>
+  <br>
+  <br>
 
   <div class="container">
     <div class="row justify-content-around text-center">
@@ -47,12 +49,19 @@
 
       <div class="container-fluid" id="buy-now">
         <br>
+        <span class="featuredPlans">
+          Featured Plans
+        </span>
+        <br>
+        <span class="featuredPlans underScore">
+          _______________
+        </span>
+        <br>
+        <br>
+        <br>
         <div class="container">
           <div class="row">
-            <div class="">
-
-              <input type="image" src="../../../assets/yelloSim.png" class="yelloSim">
-            </div>
+           
             <div class="col-sm-4">
               <div class="card mb-5 text-center">
                 <div class="title">
@@ -149,6 +158,9 @@
                   now</a>
               </div>
             </div>
+            <div class="">
+                <input type="image" src="../../../assets/yelloSim.png" class="yelloSim">
+              </div>
           </div>
         </div>
       </div>
@@ -193,10 +205,10 @@
                 </span>
                 <br>
                 <span class="text-2 ">
-                    We’d love to hear from you!
-                  </span>
+                  We’d love to hear from you!
+                </span>
               </div>
-<br><br>
+              <br><br>
             </div>
             <div data-form-type="formoid">
               <div data-form-alert="" hidden="">
@@ -220,12 +232,13 @@
                   </div>
 
                   <div class="col-md-12 mb-2" data-for="message">
-                    <textarea class="form-control input formBorder" name="message" rows="3" data-form-field="Message"
+                    <textarea class="form-control input formBorder" name="message" rows="4" data-form-field="Message"
                       placeholder="Message" style="resize:none" id="message-form4-4v" [(ngModel)]="email.message"
                       name="message"></textarea>
                   </div>
                   <div class="input-group-btn col-md-12 mb-2 px-4" style="margin-top: 10px;">
-                    <button href="" type="submit" class="btn btn-warning  btn-contact" (click)="sendEmail()">Send</button>
+                    <button href="" type="submit" class="btn btn-warning  btn-contact"
+                      (click)="sendEmail()">Send</button>
                   </div>
                 </div>
               </form>
