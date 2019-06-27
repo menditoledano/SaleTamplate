@@ -1,0 +1,9 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@media (min-width: 350px) {  
+  body{
+      line-height: 2; 
+    }
+  }
+
+
