@@ -289,8 +289,9 @@ Bootstrap 4 breakpoints
   font-weight: 500;
   color: white;
   border-radius: 1.25rem;
-  width: 21%;
-  height: 67%;
+  width: 23%;
+  height: 60%;
+  margin: 10px auto;
 }
 
 .btn-gradient {
@@ -531,8 +532,8 @@ ul li.bold {
 
 .grayLogo {
 
-  width: 40%;
-  height: 17%;
+  width: 45%;
+  height: 30%;
 
 }
 
@@ -552,7 +553,7 @@ ul li.bold {
 .callPhone {
   font-family: Montserrat;
   font-size: 22px;
-  width: 38%;
+  width: 45%;
   height: 2.8rem;
   object-fit: contain;
   border-radius: 30px;
@@ -570,7 +571,7 @@ ul li.bold {
   letter-spacing: -0.28px;
   font-size: 18px;
   height: 2.8rem;
-  width: 38%;
+  width: 45%;
   border-radius: 30px;
   background-color: white;
   color: #3638d5;
@@ -584,7 +585,7 @@ ul li.bold {
 .sendEmail {
   font-family: Montserrat;
   font-size: 22px;
-  width: 38%;
+  width: 45%;
   height: 2.8rem;
   object-fit: contain;
   border-radius: 30px;
@@ -600,9 +601,9 @@ ul li.bold {
 .emailAddress {
   font-family: Montserrat;
   letter-spacing: -0.28px;
-  font-size: 17px;
+  font-size: 0.95rem;
   height: 2.8rem;
-  width: 38%;
+  width: 45%;
   border-radius: 30px;
   background-color: white;
   color: #3638d5;
@@ -648,11 +649,13 @@ ul li.bold {
   text-align: center;
   color: #3638d5;
   position: relative;
+  border-bottom: 4px solid white;
+   padding-bottom: 3px;
 }
 
 .viewAllPlansUnderScore {
   color: white;
   position: relative;
-  left: 16%;
+  left: 9.3rem;
   font-weight: bolder;
 }
