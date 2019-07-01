@@ -58,7 +58,6 @@ Bootstrap 4 breakpoints
     transform: translateY(-50%);
     max-height: 20px;
     max-width: 80px;
-    /* background-size: 20% 20%; */
   }
 }
 
@@ -71,7 +70,7 @@ Bootstrap 4 breakpoints
     width: 300px;
     height: 120px;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -136,7 +135,7 @@ Bootstrap 4 breakpoints
     width: 300px;
     height: 120px;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -650,7 +649,7 @@ ul li.bold {
   color: #3638d5;
   position: relative;
   border-bottom: 4px solid white;
-   padding-bottom: 3px;
+  padding-bottom: 3px;
 }
 
 .viewAllPlansUnderScore {

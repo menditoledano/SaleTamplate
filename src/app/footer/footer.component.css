@@ -10,9 +10,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 95vw;
   z-index: -1;
-  /* position: relative; */
 }
 
 .grayLogo {
@@ -23,15 +22,63 @@
 .contactInfo {
   position: absolute;
   font-family: Montserrat;
-  font-size: 1.25rem;
+  font-size: 1.5vw;
   font-weight: 300;
-  line-height: 1.36;
-  letter-spacing: -0.98px;
-  text-align: left;
-  top: 660%;
-  left: 14%;
+  top: 18vh;
+  left: 12vw;
   color: #212529;
 }
-.contactInfo b{
-    font-weight: 700;
+
+.contactInfo b {
+  font-weight: 700;
+}
+
+.box {
+  position: relative;
+}
+
+.quickLinks {
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 1.5vw;
+  font-weight: 100;
+  top: 10vh;
+  left: 53vw;
+  color: #212529;
+}
+
+.followUs {
+  position: absolute;
+  font-family: Montserrat;
+  font-size: 1.5vw;
+  font-weight: 100;
+  top: 10vh;
+  left: 74vw;
+  color: #212529;
+}
+
+.title {
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+.youtube {
+  width: 3.5vw;
+  position: absolute;
+  bottom: -4.5vw;
+  left: 0vw;
+}
+
+.facebook {
+  width: 3.5vw;
+  position: absolute;
+  bottom: -4.5vw;
+  left: 5vw;
+}
+
+.instegram {
+  width: 3.5vw;
+  position: absolute;
+  bottom: -4.5vw;
+  left: 10vw;
 }
