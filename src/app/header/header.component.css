@@ -27,28 +27,10 @@
   width: 149px;
   height: 36px;
   object-fit: contain;
-  margin-left: 17.5px;
-
-  
+  margin-left: 17.5px; 
 }
 
-/* .sims {
-  
-  transform: rotate(-720deg);
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  text-align: center;
-  color: #393939;
-  top: 50%;
-} */
-
 .routerLink {
-
   transform: rotate(-720deg);
   font-family: Montserrat;
   font-size: 16px;
@@ -65,16 +47,3 @@
 .routerLink:hover{
   background-color: #ffc516;
 }
-/* .contact {
- 
-  transform: rotate(-720deg);
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.1px;
-  text-align: center;
-  color: #393939;
-} */
