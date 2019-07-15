@@ -1,10 +1,38 @@
-.aboutUS {
-    font-family: Montserrat;
-    font-size: 3vw;
-    font-weight: 100 !important;
-    text-align: center;
-    color: #3638d5;
-    border-bottom: 4px solid #ffc516;
-    padding-bottom: 1vh;
+.wraper {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
 
+.aboutUS {
+  font-family: Montserrat;
+  font-size: 2.8vw;
+  font-weight: 100 !important;
+  text-align: center;
+  color: #3638d5;
+  border-bottom: 4px solid #ffc516;
+  padding-bottom: 1vh;
+
+}
+
+.description {
+  padding-left: 10vw;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #212529;
+}
+
+.reviewsBg {
+  width: 40vh;
+  z-index: -1;
+  position: relative;
+  top: 7vh;
 }
