@@ -2,6 +2,7 @@
 
 @media (min-width: 350px) {  
   body{
+    /* background-image: url(./assets/background@3x.png); */
       line-height: 2; 
     }
   }
