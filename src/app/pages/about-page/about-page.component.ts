@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Review } from '../../models/review.model';
+import * as reviewsData from '../../db/reviews.json';
 
 @Component({
   selector: 'app-about-page',
@@ -7,8 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutPageComponent implements OnInit {
 
-  constructor() { }
 
+  constructor() { }
+reviews :Review[] = reviewsData.data;
+lo
   ngOnInit() {
   }
 

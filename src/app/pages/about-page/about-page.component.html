@@ -3,7 +3,7 @@
 <div class="wraper">
   <div id="about" class="container text-center">
 
-    <span class="aboutUS">ABOUT US</span>
+    <p class="aboutUS">ABOUT US</p>
     <div class="row">
       <div class="col text-left description">
         <br>
@@ -76,8 +76,39 @@
         just let us know.
         <br>
       </div>
-      <div class="col">
+      <div class="col box">
+
         <img src="../../../assets/blueSim.png" class="reviewsBg ">
+        <h2 class="reviewHeader">Reviews</h2>
+<!-- 
+        <p class="reviwer ">{{this.reviews[0].reviwerName + ', '+this.reviews[0].reviwerCity }}</p>
+        <p class="reviewPayload">{{this.reviews[0].payload}}</p>
+        <p class="reviewDate">{{this.reviews[0].date}}</p> -->
+       
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item text-center active ">
+                  <div class="carousel-caption">
+                  <p class="reviwer ">{{this.reviews[0].reviwerName + ', '+this.reviews[0].reviwerCity }}</p>
+                  <p class="reviewPayload">{{this.reviews[0].payload}}</p>
+                  <p class="reviewDate">{{this.reviews[0].date}}</p>
+                  </div>
+              </div>
+              <div class="carousel-item text-center">
+                  <div class="carousel-caption">
+                  <p class="reviwer">{{this.reviews[1].reviwerName + ', '+this.reviews[1].reviwerCity }}</p>
+                  <p class="reviewPayload">{{this.reviews[1].payload}}</p>
+                  <p class="reviewDate">{{this.reviews[1].date}}</p>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+       
       </div>
     </div>
   </div>

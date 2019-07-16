@@ -36,3 +36,87 @@
   position: relative;
   top: 7vh;
 }
+
+.box {
+  position: relative;
+}
+
+.reviewHeader {
+  left: 24%;
+  top: 17%;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffc516;
+}
+
+.reviwer {
+  font-weight: bold !important;
+  position: relative;
+  left: 25%;
+  top: 26%;
+  font-family: Montserrat;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.reviewPayload {
+  font-weight: 100 !important;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  top: 30%;
+  font-family: Montserrat;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.reviewDate {
+  position: relative;
+  font-weight: bolder !important;
+  width: 20vw;
+  left: 25%;
+  top: 63%;
+  font-family: Montserrat;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.carousel-caption {
+  position: relative !important;
+  left: auto;
+  right: auto;
+  top: -40vh;
+  width: 100%
+}
+
+.carousel-item {
+  position: absolute;
+}
+
+.carousel-inner {
+  position: unset;
+}
+
+.carousel-indicators>li {
+  border-radius: 50%;
+  width: 8px;
+  height: 6px;
+  background-color: white;
+
+}
+
+.carousel-indicators .active {
+  background-color: #ffc516;
+}
