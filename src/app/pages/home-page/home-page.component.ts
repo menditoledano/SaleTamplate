@@ -2,6 +2,7 @@ import { EmailService } from './../../email.service';
 import { Component, OnInit } from '@angular/core';
 import { Email } from '../../models/email';
 import swal from 'sweetalert2';
+import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 
 //
@@ -13,13 +14,34 @@ import swal from 'sweetalert2';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
+  closeResult: string;
 
 
-  constructor(private _emailService: EmailService) { }
+  constructor(private _emailService: EmailService, private modalService: NgbModal) { }
   email = new Email('','','','');
   swal= null;
  
- 
+  open(content) {
+    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+    }, (reason) => {
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
+    });
+  }
+
+  openWindowCustomClass(content) {
+    this.modalService.open(content, { windowClass: 'paymantModal' });
+  }
+
+  private getDismissReason(reason: any): string {
+    if (reason === ModalDismissReasons.ESC) {
+      return 'by pressing ESC';
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
+      return 'by clicking on a backdrop';
+    } else {
+      return  `with: ${reason}`;
+    }
+  }
   //
   
   model: any = {};

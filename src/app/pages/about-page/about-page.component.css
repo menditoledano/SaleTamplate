@@ -10,7 +10,7 @@
 .aboutUS {
   font-family: Montserrat;
   font-size: 2.8vw;
-  font-weight: 100 !important;
+  font-weight: 200 !important;
   text-align: center;
   color: #3638d5;
   border-bottom: 4px solid #ffc516;
@@ -46,7 +46,7 @@
   top: 17%;
   position: absolute;
   font-family: Montserrat;
-  font-weight: 600;
+  font-weight: 500;
   font-style: italic;
   font-stretch: normal;
   line-height: 1;
@@ -56,7 +56,7 @@
 }
 
 .reviwer {
-  font-weight: bold !important;
+  font-weight: 500;
   position: relative;
   left: 25%;
   top: 26%;
@@ -82,7 +82,7 @@
 
 .reviewDate {
   position: relative;
-  font-weight: bolder !important;
+  font-weight: 500;
   width: 20vw;
   left: 25%;
   top: 63%;

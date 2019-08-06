@@ -4,7 +4,7 @@ import { AppComponent } from "./app.component";
 import { MatButtonModule, MatCheckboxModule } from "@angular/material";
 import { FormsModule }   from '@angular/forms';
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 // Import the HttpClient  Module and our Data Service
 import { HttpClientModule } from "@angular/common/http";
 // import { DataService } from './data.service';
@@ -18,14 +18,16 @@ import { RegisterComponent } from "./pages/register/register.component";
 import { Routes, RouterModule } from "@angular/router";
 import { FooterComponent } from "./footer/footer.component";
 import { StoreComponent } from "./pages/store/store.component";
+import { PaymentComponent } from './pages/payment/payment.component';
 
 
 const routes: Routes = [
   { path: "home", component: HomePageComponent },
   { path: "about", component: AboutPageComponent },
-  // { path: "posts", component: PostsComponent },
   { path: "register", component: RegisterComponent },
   { path: "store", component: StoreComponent },
+  { path: "payment", component: PaymentComponent },
+
   { path: "**", component: HomePageComponent }
 ];
 
@@ -39,6 +41,7 @@ const routes: Routes = [
     // PostsComponent,
     RegisterComponent,
     StoreComponent,
+    PaymentComponent,
    
   ],
   imports: [
@@ -47,6 +50,7 @@ const routes: Routes = [
     HttpClientModule,
     MatButtonModule,
     MatCheckboxModule,
+    NgbModule,
     MatProgressSpinnerModule, // <-Add HttpClientModule
     RouterModule.forRoot(routes, { useHash: true })
   ],

@@ -20,6 +20,7 @@
     <br>
     <br>
     <br>
+    <br>
   </div>
   <div class="container">
 
@@ -70,8 +71,8 @@
         <br>
       </div>
       <div class="benefitsDetiles2">
-          Fast Reliable Shipping<br>
-          ,Within 3 business days.
+          Fast Reliable Shipping,<br>
+          Within 3 business days.
         </div>
      
       <div class="benefitsNumber">
@@ -81,8 +82,8 @@
         <br>
       </div>
       <div class="benefitsDetiles3">
-          One payment includes all<br>
-          ,No hidden costs.
+          One payment includes all,<br>
+          No hidden costs.
         </div>
       <br>
       <div class="benefitsNumber">
@@ -153,11 +154,16 @@
 
                 </ul>
               </div>
-              <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U6YV6GH3F96Q6">Order
-                now</a>
+              <!-- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U6YV6GH3F96Q6">Order
+                now</a> -->
+                <a  [routerLink]="['/payment']">Order now</a>
+               <!-- <a class="btn btn-lg btn-outline-primary" (click)="openWindowCustomClass(content)">Order now</a> -->
+
+               
               <!-- TEST ONLY <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VU3MFB3QLXJGU">Order now</a> -->
             </div>
           </div>
+          
           <div class="col-sm-4">
             <div class="card mb-5 text-center">
               <div class="title">
@@ -341,3 +347,4 @@
 <br>
 <br>
 <br>
+

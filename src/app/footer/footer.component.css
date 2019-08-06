@@ -24,6 +24,7 @@
   font-family: Montserrat;
   font-size: 1.5vw;
   font-weight: 300;
+  line-height: 1.5;
   top: 30%;
   left: 12vw;
   color: #212529;
@@ -41,7 +42,7 @@
   position: absolute;
   font-family: Montserrat;
   font-size: 1.5vw;
-  font-weight: 100;
+  font-weight: 200;
   top: 20%;
   left: 53vw;
   color: #212529;
@@ -59,7 +60,7 @@
 
 .title {
   font-size: 1.5vw;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .youtube {

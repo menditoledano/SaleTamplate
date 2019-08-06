@@ -71,7 +71,7 @@ Bootstrap 4 breakpoints
     height: 120px;
     font-family: Montserrat;
     font-size: 4vw;
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.13;
@@ -103,7 +103,7 @@ Bootstrap 4 breakpoints
   .Rectangle-6-Copy-2 {
     font-family: Montserrat;
     font-style: bold;
-    font-weight: 700;
+    font-weight: 500;
     src: local("Montserrat-Bold"),
       url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype");
 
@@ -141,7 +141,7 @@ Bootstrap 4 breakpoints
     height: 120px;
     font-family: Montserrat;
     font-size: 3vw;
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.13;
@@ -173,7 +173,7 @@ Bootstrap 4 breakpoints
   .Rectangle-6-Copy-2 {
     font-family: Montserrat;
     font-style: bold;
-    font-weight: 700;
+    font-weight: 500;
     src: local("Montserrat-Bold"),
       url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype");
 
@@ -403,7 +403,7 @@ section {
 .price h3 {
   font-family: Montserrat;
   margin: 0;
-  font-weight: 800;
+  font-weight: 600;
   padding: 20px 0;
   color: #3133d4;
   font-size: 45px;
@@ -438,7 +438,7 @@ sup {
 }
 
 ul li.bold {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .card a {
@@ -510,7 +510,7 @@ ul li.bold {
 }
 
 .contactUs {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 55px;
   font-family: Montserrat;
   color: #3133d4;
@@ -526,7 +526,7 @@ ul li.bold {
 }
 
 .text-2 {
-  font-weight: bold;
+  font-weight: 500;
   font-family: Montserrat;
   font-size: 23px;
   line-height: 1.36;
@@ -645,7 +645,7 @@ ul li.bold {
   left: 38%;
   font-family: Montserrat;
   font-size: 25px;
-  font-weight: bolder;
+  font-weight: 500;
   font-style: normal;
   font-stretch: normal;
   line-height: 0.1;
@@ -661,7 +661,7 @@ ul li.bold {
   color: white;
   position: relative;
   left: 9.3rem;
-  font-weight: bolder;
+  font-weight: 500;
 }
 
 .box {
@@ -688,7 +688,7 @@ ul li.bold {
   position: absolute;
   font-style: italic;
   font-family: Montserrat;
-  font-weight: bold;
+  font-weight: 500;
   right: 3%;
   line-height: normal;
   text-align: right;
@@ -700,7 +700,7 @@ ul li.bold {
   align-content: center;
   position: absolute;
   font-family: Montserrat;
-  font-weight: bold;
+  font-weight: 500;
   left: -5%;
   text-align: left;
   color: #3133d4;
@@ -763,4 +763,22 @@ ul li.bold {
   text-align: left;
   color: #333132;
   top: 82%;
+}
+
+.paymantModal{
+  width: 812px;
+  height: 558px;
+  object-fit: contain;
+  box-shadow: 0 0 47.5px 2.5px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../../assets/paymentBg.png);
 }
