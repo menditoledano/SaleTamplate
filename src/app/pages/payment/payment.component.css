@@ -72,7 +72,7 @@
   align-content: center;
   font-size: 1.2vw;
   font-family: Montserrat;
-
+  position: absolute;
   color: #333132;
   top: 82%;
 }
@@ -82,4 +82,16 @@
   position: absolute;
   right: 33%;
   top: 19%;
+}
+
+.submit {
+  right: 28%;
+  position: absolute;
+  top: 83%;
+  text-align: center;
+  font-size: 1.5vw;
+  background-color: white;
+  border-radius: 4vw;
+  width: 3vw;
+  height: 3vw;
 }

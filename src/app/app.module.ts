@@ -19,6 +19,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { FooterComponent } from "./footer/footer.component";
 import { StoreComponent } from "./pages/store/store.component";
 import { PaymentComponent } from './pages/payment/payment.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 
 const routes: Routes = [
@@ -27,7 +28,7 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "store", component: StoreComponent },
   { path: "payment", component: PaymentComponent },
-
+  { path: "blog", component: BlogComponent },
   { path: "**", component: HomePageComponent }
 ];
 
@@ -42,6 +43,7 @@ const routes: Routes = [
     RegisterComponent,
     StoreComponent,
     PaymentComponent,
+    BlogComponent,
    
   ],
   imports: [

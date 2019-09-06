@@ -1,5 +1,4 @@
-/* @import "node_modules/bootstrap/scss/bootstrap"; */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700,900&subset=latin,latin-ext);
 
 .float{
 	position:fixed;
