@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({
 app.post('/', (req, res) => {
   // Before anything else, log the IPN
   logger.info(`New IPN Message: ${JSON.stringify(req.body)}`);
+  console.log(req.body);
 
   // Read the IPN message sent from PayPal and prepend 'cmd=_notify-validate'
   res.status(200).send('OK');
