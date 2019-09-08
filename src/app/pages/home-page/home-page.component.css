@@ -499,11 +499,11 @@ ul li.bold {
 }
 
 .yelloSim {
-  width: 115%;
+  width: 75%;
+  left: 12%;
   z-index: -1;
-  top: -70%;
-  left: -6%;
-  position: relative;
+  top: 49%;
+  position: absolute;
 }
 
 .contactUs {
@@ -545,16 +545,15 @@ ul li.bold {
 .contactLinks {
   text-align: center;
   position: relative;
-  top: 50%;
-  left: 25%;
+  top: 20%;
+  left: 100%;
   line-height: 1.27;
-
 }
 
 .callPhone {
   font-family: Montserrat;
   font-size: 22px;
-  width: 45%;
+  max-width: 250px;
   height: 2.8rem;
   object-fit: contain;
   border-radius: 30px;
@@ -572,7 +571,7 @@ ul li.bold {
   letter-spacing: -0.28px;
   font-size: 18px;
   height: 2.8rem;
-  width: 45%;
+  max-width: 250px;
   border-radius: 30px;
   background-color: white;
   color: #3638d5;
@@ -586,7 +585,7 @@ ul li.bold {
 .sendEmail {
   font-family: Montserrat;
   font-size: 22px;
-  width: 45%;
+  max-width: 250px;
   height: 2.8rem;
   object-fit: contain;
   border-radius: 30px;
@@ -604,7 +603,7 @@ ul li.bold {
   letter-spacing: -0.28px;
   font-size: 0.95rem;
   height: 2.8rem;
-  width: 45%;
+  max-width: 250px;
   border-radius: 30px;
   background-color: white;
   color: #3638d5;
@@ -635,7 +634,9 @@ ul li.bold {
 
 
 .viewAllPlans {
-  left: 38%;
+  position: absolute;
+  left: 44%;
+  top: 59%;
   font-family: Montserrat;
   font-size: 25px;
   font-weight: 500;
@@ -644,9 +645,7 @@ ul li.bold {
   letter-spacing: -0.6px;
   text-align: center;
   color: #3638d5;
-  position: relative;
   border-bottom: 4px solid white;
-  padding-bottom: 3px;
 }
 
 .viewAllPlansUnderScore {
@@ -670,7 +669,7 @@ ul li.bold {
   line-height: normal;
   text-align: right;
   color: #ffffff;
-  letter-spacing: 1.1px;
+  letter-spacing: 1px;
 }
 
 .fastShipingH1 {
@@ -680,14 +679,15 @@ ul li.bold {
   font-style: italic;
   font-family: Montserrat;
   font-weight: 500;
+  font-size: 2.5vw;
   right: 3%;
-  line-height: normal;
   text-align: right;
   color: #ffffff;
 }
 
 .ourBestBenefits {
   top: 25%;
+  font-size: 2vw;
   align-content: center;
   position: absolute;
   font-family: Montserrat;
@@ -777,22 +777,22 @@ ul li.bold {
 }
 
 .videoSpace {
-  position: relative;
+  /*position: relative;*/
 }
 
 .videoPlayer {
-  bottom: 16%;
-  left: 17%;
+  right: 30%;
+  top: 30%;
   height: auto;
-  width: 44%;
+  width: 70%;
   border-radius: 2vw;
   position: absolute;
 }
 
 .hassleFree {
   position: absolute;
-  left: 47%;
-  bottom: 26.5%;
+  left: 44%;
+  top: 7%;
   font-size: 2.5vw;
   color: #ffc516;
   font-family: Montserrat;
@@ -801,10 +801,11 @@ ul li.bold {
   font-stretch: normal;
   text-align: right;
 }
-.theEasyWay{
+
+.theEasyWay {
   position: absolute;
-  left: 44%;
-  bottom: 25.5%;
+  left: 39%;
+  top: 15%;
   font-size: 2.5vw;
   color: white;
   font-family: Montserrat;
@@ -814,3 +815,6 @@ ul li.bold {
   text-align: right;
 }
 
+.flex-contact {
+  display: flex;
+}

@@ -1,4 +1,4 @@
-// Get dependencies 
+// Get dependencies
 const compression = require("compression");
 const express = require("express");
 const path = require("path");
@@ -17,30 +17,72 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-// Point static path to dist
-app.use(express.static(path.join(__dirname, "dist")));
 
-// Set our api routes
-app.use("/api", api);
+app.post('/', (req, res) => {
+  // Before anything else, log the IPN
+  logger.info(`New IPN Message: ${JSON.stringify(req.body)}`);
 
-// Catch all other routes and return the index file
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "src/index.html"));
+  // Read the IPN message sent from PayPal and prepend 'cmd=_notify-validate'
+  res.status(200).send('OK');
+  res.end();
+
+  let postreq = 'cmd=_notify-validate';
+
+  Object.keys(req.body).forEach((key) => {
+    postreq = `${postreq}&${key}=${req.body[key]}`;
+  });
+
+  logger.debug(`IPN Postback: ${postreq}`);
+
+  const options = {
+    url: 'https://www.sandbox.paypal.com/cgi-bin/webscr',
+    method: 'POST',
+    headers: {
+      Connection: 'close',
+    },
+    body: postreq,
+    strictSSL: true,
+    rejectUnauthorized: false,
+    requestCert: true,
+    agent: false,
+  };
+
+  request(options, (error, response, body) => {
+    logger.debug(`${response.statusCode}: ${body}`);
+    if (!error && response.statusCode === 200) {
+      // inspect IPN validation result and act accordingly
+      if (body.substring(0, 8) === 'VERIFIED') {
+        // To loop through the &_POST array and print the NV pairs to the screen:
+        logger.debug('IPN Data: ');
+        Object.keys(req.body).forEach((key) => {
+          logger.debug(`${key}=${req.body[key]}`);
+        });
+      } else if (body.substring(0, 7) === 'INVALID') {
+        // IPN invalid, log for manual investigation
+        logger.error(`IPN Invalid: ${body}`);
+      }
+      // Save the IPN and associated data to MongoDB
+      newIPN.create({
+        ipnMessageRaw: JSON.stringify(req.body),
+        ipnMessage: req.body,
+        ipnPostback: postreq,
+        status: body,
+        timestamp: Date.now(),
+      }, (err) => {
+        if (err) logger.error(`DB Create Error${err}`);
+      });
+    }
+  });
 });
 
-/**
- * Get port from environment and store in Express.
- */
+
+app.use(express.static(path.join(__dirname, "dist")));
+app.use("/api", api);
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "src/index.html"))
+});
+
 const port = process.env.PORT || "7700";
 app.set("port", port);
-
-/**
- * Create HTTP server.
- */
 const server = http.createServer(app);
-
-/**
- * Listen on provided port, on all network interfaces.
- */
-// server.listen(port, () => console.log(`API running on localhost:${port}`));
 app.listen(port, () => console.log(`API running on localhost:${port}`));
