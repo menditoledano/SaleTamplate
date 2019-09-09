@@ -8,6 +8,15 @@ const bodyParser = require("body-parser");
 // Get our API routes
 const api = require("./Server/routes/api");
 
+var email = require("emailjs");
+var emailServer = email.server.connect({
+  user: "770kmosh@gmail.com",
+  password: "mendi2161995",
+  host: "smtp.gmail.com",
+  ssl: true
+});
+
+
 const app = express();
 
 // Parsers for POST data
@@ -22,6 +31,19 @@ app.post('/', (req, res) => {
   // Before anything else, log the IPN
   // logger.info(`New IPN Message: ${JSON.stringify(req.body)}`);
   console.log(req.body);
+  var message = {
+    text:  JSON.stringify(req.body),
+    last_name: 'last name' + req.body.last_name,
+    from: req.body.payer_email,
+    to: "menditoledano@gmail.com",
+    subject: "email from " ,
+
+  };
+
+  emailServer.send(message, function (err, message) {
+    console.log(err || message);
+    // res.send('OK');
+  });
 
   // Read the IPN message sent from PayPal and prepend 'cmd=_notify-validate'
   res.status(200).send('OK');
