@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({
 app.post('/', (req, res) => {
   // Before anything else, log the IPN
   // logger.info(`New IPN Message: ${JSON.stringify(req.body)}`);
-  console.log(req.body);
+  console.log('this is the body !!!!!!!!!!!!!!!!!!!!'+ JSON.stringify(req.body));
   var message = {
     text:  JSON.stringify(req.body),
     last_name: 'last name' + req.body.last_name,
