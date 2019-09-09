@@ -13,9 +13,8 @@ const emailServer = email.server.connect({
   user: "770kmosh@gmail.com",
   password: "mendi2161995",
   host: 'smtp.gmail.com',
+  port: '465',
   ssl: true
-  // ssl: true
-
 });
 
 
@@ -32,7 +31,7 @@ app.use(bodyParser.urlencoded({
 app.post('/', (req, res) => {
   // Before anything else, log the IPN
   // logger.info(`New IPN Message: ${JSON.stringify(req.body)}`);
-  // console.log('this is the body !!!!!!!!!!!!!!!!!!!!'+ JSON.stringify(req.body));
+  console.log('this is the body !!!!!!!!!!!!!!!!!!!!'+ JSON.stringify(req.body));
   var message = {
     text: req.body,
     last_name: "" + req.body.last_name,
