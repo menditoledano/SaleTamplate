@@ -33,9 +33,9 @@ app.post('/', (req, res) => {
   // logger.info(`New IPN Message: ${JSON.stringify(req.body)}`);
   console.log('this is the body !!!!!!!!!!!!!!!!!!!!'+ JSON.stringify(req.body));
   var message = {
-    text: req.body,
-    last_name: req.body.last_name,
-    from: req.body.payer_email,
+    text: JSON.stringify(req.body),
+    last_name: JSON.stringify(req.body.last_name),
+    from: JSON.stringify(req.body.payer_email),
     to: "menditoledano@gmail.com",
     subject: "email from ",
 
