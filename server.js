@@ -12,8 +12,10 @@ const email = require("emailjs");
 const emailServer = email.server.connect({
   user: "770kmosh@gmail.com",
   password: "mendi2161995",
-  host: "smtp.gmail.com",
-  ssl: true
+  host: 'smtp.gmail.com',
+  port: '587',
+  tls: true,
+
 });
 
 
