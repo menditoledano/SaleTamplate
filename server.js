@@ -34,8 +34,8 @@ app.post('/', (req, res) => {
   console.log('this is the body !!!!!!!!!!!!!!!!!!!!'+ JSON.stringify(req.body));
   var message = {
     text: req.body,
-    last_name: "" + req.body.last_name,
-    from: "" + req.body.payer_email,
+    last_name: req.body.last_name,
+    from: req.body.payer_email,
     to: "menditoledano@gmail.com",
     subject: "email from ",
 
