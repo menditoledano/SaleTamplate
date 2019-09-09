@@ -8,8 +8,8 @@ const bodyParser = require("body-parser");
 // Get our API routes
 const api = require("./Server/routes/api");
 
-var email = require("emailjs");
-var emailServer = email.server.connect({
+const email = require("emailjs");
+const emailServer = email.server.connect({
   user: "770kmosh@gmail.com",
   password: "mendi2161995",
   host: "smtp.gmail.com",
@@ -50,52 +50,52 @@ app.post('/', (req, res) => {
   res.end();
 
   let postreq = 'cmd=_notify-validate';
-
-  Object.keys(req.body).forEach((key) => {
-    postreq = `${postreq}&${key}=${req.body[key]}`;
-  });
+  //
+  // Object.keys(req.body).forEach((key) => {
+  //   postreq = `${postreq}&${key}=${req.body[key]}`;
+  // });
 
   // logger.debug(`IPN Postback: ${postreq}`);
-
-  const options = {
-    url: 'https://ipnpb.paypal.com/cgi-bin/webscr',
-    method: 'POST',
-    headers: {
-      Connection: 'close',
-    },
-    body: postreq,
-    strictSSL: true,
-    rejectUnauthorized: false,
-    requestCert: true,
-    agent: false,
-  };
-
-  request(options, (error, response, body) => {
-    // logger.debug(`${response.statusCode}: ${body}`);
-    if (!error && response.statusCode === 200) {
-      // inspect IPN validation result and act accordingly
-      if (body.substring(0, 8) === 'VERIFIED') {
-        // To loop through the &_POST array and print the NV pairs to the screen:
-        // logger.debug('IPN Data: ');
-        Object.keys(req.body).forEach((key) => {
-          // logger.debug(`${key}=${req.body[key]}`);
-        });
-      } else if (body.substring(0, 7) === 'INVALID') {
-        // IPN invalid, log for manual investigation
-        // logger.error(`IPN Invalid: ${body}`);
-      }
-      // Save the IPN and associated data to MongoDB
-      newIPN.create({
-        ipnMessageRaw: JSON.stringify(req.body),
-        ipnMessage: req.body,
-        ipnPostback: postreq,
-        status: body,
-        timestamp: Date.now(),
-      }, (err) => {
-        console.log(err);
-      });
-    }
-  });
+  //
+  // const options = {
+  //   url: 'https://ipnpb.paypal.com/cgi-bin/webscr',
+  //   method: 'POST',
+  //   headers: {
+  //     Connection: 'close',
+  //   },
+  //   body: postreq,
+  //   strictSSL: true,
+  //   rejectUnauthorized: false,
+  //   requestCert: true,
+  //   agent: false,
+  // };
+  //
+  // request(options, (error, response, body) => {
+  //   // logger.debug(`${response.statusCode}: ${body}`);
+  //   if (!error && response.statusCode === 200) {
+  //     // inspect IPN validation result and act accordingly
+  //     if (body.substring(0, 8) === 'VERIFIED') {
+  //       // To loop through the &_POST array and print the NV pairs to the screen:
+  //       // logger.debug('IPN Data: ');
+  //       Object.keys(req.body).forEach((key) => {
+  //         // logger.debug(`${key}=${req.body[key]}`);
+  //       });
+  //     } else if (body.substring(0, 7) === 'INVALID') {
+  //       // IPN invalid, log for manual investigation
+  //       // logger.error(`IPN Invalid: ${body}`);
+  //     }
+  //     // Save the IPN and associated data to MongoDB
+  //     newIPN.create({
+  //       ipnMessageRaw: JSON.stringify(req.body),
+  //       ipnMessage: req.body,
+  //       ipnPostback: postreq,
+  //       status: body,
+  //       timestamp: Date.now(),
+  //     }, (err) => {
+  //       console.log(err);
+  //     });
+  //   }
+  // });
 });
 
 
