@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
+import {DOCUMENT} from '@angular/common';
+import swal from 'sweetalert2';
+
 
 @Component({
   selector: 'app-payment',
@@ -7,12 +10,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PaymentComponent implements OnInit {
 
-  constructor() { }
-  choosenDate;
+  constructor(@Inject(DOCUMENT) private document: Document) {
+  }
 
-  
+  choosenDate: any = -1;
+  dateToSend;
+
+  onSubmitBuy() {
+    if (this.choosenDate === -1) {
+      swal.fire(
+        'Enter a landing date',
+        'To activate the SIM',
+        'warning'
+      );
+    } else {
+      this.document.location.href = 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=' +
+        'VU3MFB3QLXJGU&custom=' +
+        this.choosenDate.month + '/' + this.choosenDate.day + '/' + this.choosenDate.year;
+    }
+  }
+
   ngOnInit() {
-    
   }
 
 }
+
