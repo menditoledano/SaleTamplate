@@ -3,15 +3,12 @@
 
     <img src="../../../assets/paymentBg.png" class="paymantBg">
     <h1 class="carrierPrice">
-      85.00 $
+      {{inputState.price}} $
     </h1>
     <h2 class="carrierDetiles">
-      At&t 30 Days Plan
+      {{inputState.detailes}}
     </h2>
-
     <img class="img-thumbnail img-fluid paypalLogo  " src="../../../assets/paypalLogo@3x.png">
-
-
     <div class="myDatePicker">
       <form class="form-inline" id="datePicker">
         <div class="form-group">
@@ -27,10 +24,6 @@
           </div>
         </div>
       </form>
-      <hr/>
-      <pre>Model: {{ choosenDate  }}</pre>
-      <pre>Model: {{ dateToSend | json}}</pre>
-
       <br>
       <div class="chooseDate">
         <b>Enter a landing date to activate the SIM</b><br>

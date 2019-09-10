@@ -160,7 +160,9 @@
                 </div>
                 <!-- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U6YV6GH3F96Q6">Order
                 now</a> -->
-                <a [routerLink]="['/payment']">Order now</a>
+                <a (click)="test($event)">Order nowwwwwww</a>
+
+                <a [routerLink]="['/payment']" [state]="carriers[3]">Order now</a>
                 <!-- <a class="btn btn-lg btn-outline-primary" (click)="openWindowCustomClass(content)">Order now</a> -->
 
 

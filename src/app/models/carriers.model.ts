@@ -1,11 +1,8 @@
-export class carrier {
-    constructor(
-        public name: string,
-        public id: string,
-        public pictureUrl: string,
-        public price: string,
-        public detailes: string
-
-    ) { }
-
+export class Carrier {
+   name?: string;
+   id?: number;
+   pictureUrl?: string;
+   price?: string;
+   paypalButtonId?: string;
+   detailes?: string;
 }

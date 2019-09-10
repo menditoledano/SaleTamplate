@@ -3,6 +3,7 @@ import {Component, OnInit} from '@angular/core';
 import {Email} from '../../models/email';
 import swal from 'sweetalert2';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
+import {Carrier} from '../../models/carriers.model';
 
 
 //
@@ -14,14 +15,51 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  closeResult: string;
-
 
   constructor(private _emailService: EmailService, private modalService: NgbModal) {
   }
 
+  carriers: Carrier[] = [{
+    name: 'AT&T',
+    id: 1,
+    pictureUrl: '',
+    price: '45',
+    paypalButtonId: '79GNJHL8U54LQ',
+    detailes: 'string'
+  }, {
+    name: 'T-Mobile',
+    id: 2,
+    pictureUrl: '',
+    price: '85',
+    paypalButtonId: 'T7ZMX9GPLBL9W',
+    detailes: 'string'
+  }, {
+    name: 'H2O',
+    id: 3,
+    pictureUrl: '49U339MG7BDGS',
+    price: '115',
+    paypalButtonId: '',
+    detailes: ''
+  },
+    {
+      name: 'Test',
+      id: 4,
+      pictureUrl: '',
+      price: '0.1',
+      paypalButtonId: 'VU3MFB3QLXJGU',
+      detailes: 'test Test unlimited'
+    }];
+
+  closeResult: string;
   email = new Email('', '', '', '');
   swal = null;
+  model: any = {};
+
+
+  test(event) {
+    const events = event;
+    console.log(events);
+  }
 
   open(content) {
     this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
@@ -45,19 +83,12 @@ export class HomePageComponent implements OnInit {
     }
   }
 
-  //
-
-  model: any = {};
 
   onSubmit() {
     alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.model));
   }
 
-//
-
-
   sendEmail() {
-
     swal.fire({
       title: 'Are you sure?',
       text: 'sent you email?!',

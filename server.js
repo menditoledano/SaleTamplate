@@ -34,12 +34,14 @@ app.post('/', (req, res) => {
   console.log('this is the body !!!!!!!!!!!!!!!!!!!!' + JSON.stringify(req.body));
   var payload = req.body;
   var message = {
-    text: 'Buyer name: ' + payload.address_name +
+    text: 'You got a new Order!' + '\n\n' +
+      'Buyer name: ' + payload.address_name +
       '\nDate of Arrive on USA: ' + payload.custom +
       '\nAdrress: ' + payload.address_street + '\n' +
       payload.address_city + '\n' +
       payload.address_state + '\n' +
-      payload.residence_country,
+      payload.residence_country + '\n' +
+      'Buyer email address: ' + payload.payer_email,
     from: req.body.payer_email,
     to: "menditoledano@gmail.com",
     subject: "email from ",
