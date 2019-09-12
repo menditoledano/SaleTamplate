@@ -1,0 +1,78 @@
+.wraper {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  font-family: Montserrat;
+  font-size: 2.8vw;
+  font-weight: 200 !important;
+  text-align: center;
+  color: #3638d5;
+  display: inline-block;
+  border-bottom: 4px solid #ffc516;
+  padding-bottom: 1vh;
+  margin-bottom: 5%;
+}
+
+.blog {
+  text-align: left;
+  padding-bottom: 1vh;
+  border-bottom: 4px solid #ffc516;
+  line-height: 1.5;
+  margin: 55px;
+  display: inline-block;
+  min-height: 80%;
+}
+
+.image-blog {
+  background-color: #2424cf;
+  width: 100%;
+  border-radius: 1vw;
+  clip-path: polygon(
+    0% 0,
+    0 0%,
+    calc(100% - 20px) 0%,
+    100% 0,
+    100% calc(100% - 20px),
+    calc(100% - 20px) 100%,
+    0 100%,
+    0 calc(100% - 20px)
+  );
+  margin-bottom: 10%;
+}
+
+.label-blog {
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #3638d5;
+  font-style: italic;
+}
+
+.text-blog {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #212529;
+}
+
+.plus-blogs {
+  background-color: #dcddde;
+  width: 100px;
+  font-size: 2.5vw;
+  height: 100px;
+  color: #4d4d4f;
+  border-radius: 100%;
+}
+
+.comming-soon {
+  font-family: Montserrat;
+  font-size: 2vw;
+}

@@ -1,1 +1,24 @@
-<p>blog works!</p>
+<div class="wraper">
+  <div id="about" class="container text-center">
+    <p class="label">BLOG</p>
+    <div class="row">
+      <!--      <div class="col-4">-->
+      <div *ngFor="let currBlog of blogs" class="col-4">
+        <div class="blog">
+          <img class="image-blog" [src]="currBlog.imageSrc" alt="" />
+          <h3 class=" label-blog">{{ currBlog.title }}</h3>
+          <span class="text-blog">{{ currBlog.description }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <!--        <div class="plus-blogs">-->
+        <!--          +-->
+        <!--        </div>-->
+        <span class="comming-soon">Coming soon ...</span>
+      </div>
+    </div>
+  </div>
+</div>

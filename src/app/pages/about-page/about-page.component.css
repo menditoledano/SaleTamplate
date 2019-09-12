@@ -15,7 +15,6 @@
   color: #3638d5;
   border-bottom: 4px solid #ffc516;
   padding-bottom: 1vh;
-
 }
 
 .description {
@@ -98,7 +97,7 @@
   left: auto;
   right: auto;
   top: -40vh;
-  width: 100%
+  width: 100%;
 }
 
 .carousel-item {
@@ -109,12 +108,11 @@
   position: unset;
 }
 
-.carousel-indicators>li {
+.carousel-indicators > li {
   border-radius: 50%;
   width: 8px;
   height: 6px;
   background-color: white;
-
 }
 
 .carousel-indicators .active {

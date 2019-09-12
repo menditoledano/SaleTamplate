@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as blogs from '../../db/blogs.json';
 
 @Component({
   selector: 'app-blog',
@@ -6,10 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  constructor() {}
+  blogs = blogs.data;
+  ngOnInit() {}
 }
