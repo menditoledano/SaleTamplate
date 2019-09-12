@@ -9,8 +9,8 @@ const API = 'https://jsonplaceholder.typicode.com';
 
 var email = require("emailjs");
 var server = email.server.connect({
-  user: "770kmosh@gmail.com",
-  password: "mendi2161995",
+  user: "support@sims4usa.com",
+  password: "sims4usa770",
   host: "smtp.gmail.com",
   ssl: true
 });
@@ -40,7 +40,7 @@ router.post('/sendSaleEmail', (req, res) => {
   var message = {
     text:  JSON.stringify(req.body),
     last_name: 'last name' + req.body.last_name,
-    from: req.body.payer_email,
+    from: 'twst@test',
     to: "menditoledano@gmail.com",
     subject: "email from " ,
 

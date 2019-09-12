@@ -10,8 +10,8 @@ const api = require("./Server/routes/api");
 
 const email = require("emailjs");
 const emailServer = email.server.connect({
-  user: "770kmosh@gmail.com",
-  password: "mendi2161995",
+  user: "support@sims4usa.com",
+  password: "sims4usa770",
   host: 'smtp.gmail.com',
   port: '465',
   ssl: true
