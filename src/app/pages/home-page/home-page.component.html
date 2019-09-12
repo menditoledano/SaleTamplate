@@ -1,142 +1,151 @@
 <div id="demo" class="carousel slide  " data-ride="carousel">
-
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../../../assets/blueIphoneSim.jpg" class="bridge mh-100">
+      <img src="../../../assets/blueIphoneSim.jpg" class="bridge mh-100" />
       <div class="carousel-caption Sim-card-for-USA text-left">
         <p>Sim card for USA</p>
       </div>
-      <br>
+      <br />
       <div class=" carousel-caption You-will-get-the-sim text-left">
         <p>Worldwide shippingwithin 3 business days</p>
       </div>
       <a class="carousel-caption Rectangle-6-Copy-2 " href="#buy-now">
-        <input type="image" src="../../../assets/buy-now@3x.png" srcset="../../../assets/buy-now@2x.png 2x,
-                        ../../../assets/buy-now@3x.png 3x" class="Rectangle-6-Copy-2 img-responsive text-left"
-               style="height: 32px; width:120px">
+        <input
+          type="image"
+          src="../../../assets/buy-now@3x.png"
+          srcset="../../../assets/buy-now@2x.png 2x,
+                        ../../../assets/buy-now@3x.png 3x"
+          class="Rectangle-6-Copy-2 img-responsive text-left"
+          style="height: 32px; width:120px"
+        />
       </a>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-
+    <br />
+    <br />
+    <br />
+    <br />
   </div>
   <div class="container">
-    <br>
-    <br>
-    <img src="../../../assets/companiesNames.jpg" class="" style=" width:100%">
+    <br />
+    <br />
+    <img
+      src="../../../assets/companiesNames.jpg"
+      class=""
+      style=" width:100%"
+    />
   </div>
 
-
-  <br>
-  <br>
+  <br />
+  <br />
   <div class="container">
-
     <div class="box">
-      <img src="../../../assets/mainAirPlane.jpg" class="" style=" width:100%">
+      <img
+        src="../../../assets/mainAirPlane.jpg"
+        class=""
+        style=" width:100%"
+      />
       <h1 class="fastShipingH1">
-        <b>Fast</b><br> <b>Shipping</b>
+        <b>Fast</b><br />
+        <b>Shipping</b>
       </h1>
 
       <div class="fastShiping">
         <!-- FastShipping<br><br><br> -->
         We deliver your SIM Card <b>directly to you</b> at
-        <br>
+        <br />
         any location in the world or to a place
-        <br>
-        of your choice in the U.S. <b>Within
-        <br>
-        3 Business Days </b>via FedEx
+        <br />
+        of your choice in the U.S.
+        <b
+          >Within
+          <br />
+          3 Business Days </b
+        >via FedEx
       </div>
 
       <h1 class="ourBestBenefits">
-        <b>Our</b><br>
-        <b>Best</b><br>
+        <b>Our</b><br />
+        <b>Best</b><br />
         <b>Benefits</b>
-        <br>
+        <br />
       </h1>
 
       <div class="benefitsNumber">
         1
       </div>
       <div class="benefitsDetiles1">
-        Cheaper rates in the world,<br>
+        Cheaper rates in the world,<br />
         <b>check this out!</b>
       </div>
       <div class="benefitsNumber">
-
-        <br>
+        <br />
         2
 
         <!-- <br> -->
       </div>
       <div class="benefitsDetiles2">
-        Fast Reliable Shipping,<br>
+        Fast Reliable Shipping,<br />
         <b>Within 3 business days.</b>
       </div>
 
       <div class="benefitsNumber">
-        <br>
-        <br>
+        <br />
+        <br />
         3
-        <br>
+        <br />
       </div>
       <div class="benefitsDetiles3">
-        One payment includes all,<br>
+        One payment includes all,<br />
         <b>No hidden costs.</b>
       </div>
-      <br>
+      <br />
       <div class="benefitsNumber">
-        <br>
-        <br>
-        <br>
+        <br />
+        <br />
+        <br />
         4
-
-        <br>
+        <br />
       </div>
       <div class="benefitsDetiles4">
-        Perfect service, high reliability,<br>
+        Perfect service, high reliability,<br />
         <b>Connect before you land!</b>
       </div>
     </div>
-
   </div>
-  <br>
-  <br>
-  <br>
+  <br />
+  <br />
+  <br />
 
   <div class="container">
     <div class="row justify-content-around text-center">
-
       <!-- <section> -->
 
       <div class="container-fluid" id="buy-now">
-        <br>
+        <br />
         <span class="featuredPlans">
           FEATURED PLANS
         </span>
-        <br>
-        <br>
-        <br>
-        <br>
+        <br />
+        <br />
+        <br />
+        <br />
         <div class="container">
           <div class="row">
-
             <div class="col-sm-4">
               <div class="card mb-5 text-center">
                 <div class="title">
-
-                  <img class="img-thumbnail img-fluid plans-image " src="../../../assets/paperPlane.png">
+                  <img
+                    class="img-thumbnail img-fluid plans-image "
+                    src="../../../assets/paperPlane.png"
+                  />
 
                   <h1>Basic Plan</h1>
                 </div>
                 <div class="price">
-                  <h3>
-                    <sup>$ </sup>45</h3>
+                  <h3><sup>$ </sup>{{carriers[0].price}}</h3>
                 </div>
-                <br>
+                <br />
 
                 <div class="option">
                   <ul>
@@ -155,16 +164,12 @@
                     <li>
                       Unlimited hot-spot
                     </li>
-
                   </ul>
                 </div>
-                <!-- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U6YV6GH3F96Q6">Order
-                now</a> -->
-                <a (click)="test($event)">Order nowwwwwww</a>
-
-                <a [routerLink]="['/payment']" [state]="carriers[3]">Order now</a>
-                <!-- <a class="btn btn-lg btn-outline-primary" (click)="openWindowCustomClass(content)">Order now</a> -->
-
+<!--            prodaction:                 <a [routerLink]="['/payment']" [state]="carriers[0]"-->
+                <a [routerLink]="['/payment']" [state]="carriers[3]"
+                  >Order now</a
+                >
 
                 <!-- TEST ONLY <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VU3MFB3QLXJGU">Order now</a> -->
               </div>
@@ -173,14 +178,16 @@
             <div class="col-sm-4">
               <div class="card mb-5 text-center">
                 <div class="title">
-                  <img class="img-thumbnail img-fluid  plans-image" src="../../../assets/proPlan.png">
+                  <img
+                    class="img-thumbnail img-fluid  plans-image"
+                    src="../../../assets/proPlan.png"
+                  />
                   <h1>Pro Plan</h1>
                 </div>
                 <div class="price">
-                  <h3>
-                    <sup>$ </sup>85</h3>
+                  <h3><sup>$ </sup>{{carriers[1].price}}</h3>
                 </div>
-                <br>
+                <br />
 
                 <div class="option">
                   <ul>
@@ -204,21 +211,24 @@
                     </li>
                   </ul>
                 </div>
-                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=T7ZMX9GPLBL9W">Order
-                  now</a>
+                <a [routerLink]="['/payment']" [state]="carriers[1]"
+                >Order now</a
+                >
               </div>
             </div>
             <div class="col-sm-4">
               <div class="card mb-5 text-center">
                 <div class="title">
-                  <img class="img-thumbnail img-fluid plans-image " src="../../../assets/rocket.png">
+                  <img
+                    class="img-thumbnail img-fluid plans-image "
+                    src="../../../assets/rocket.png"
+                  />
                   <h1>Premium Plan</h1>
                 </div>
                 <div class="price">
-                  <h3>
-                    <sup>$ </sup>115</h3>
+                  <h3><sup>$ </sup>{{carriers[2].price}}</h3>
                 </div>
-                <br>
+                <br />
 
                 <div class="option">
                   <ul>
@@ -239,14 +249,18 @@
                     </li>
                   </ul>
                 </div>
-                <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=49U339MG7BDGS">Order
-                  now</a>
+                <a [routerLink]="['/payment']" [state]="carriers[2]"
+                >Order now</a
+                >
               </div>
-
             </div>
 
-            <br>
-            <input type="image" src="../../../assets/yelloSim.png" class="yelloSim">
+            <br />
+            <input
+              type="image"
+              src="../../../assets/yelloSim.png"
+              class="yelloSim"
+            />
             <span class="viewAllPlans">
               VIEW ALL PLANS
             </span>
@@ -254,38 +268,42 @@
         </div>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <div class="container">
       <div class="box">
-        <img src="../../../assets/videoSpace.png" class="videoSpace" style="width:100%">
+        <img
+          src="../../../assets/videoSpace.png"
+          class="videoSpace"
+          style="width:100%"
+        />
         <h1 class="hassleFree">Hassle Free</h1>
         <h1 class="theEasyWay">The Easy Way</h1>
         <video class="videoPlayer" controls>
-          <source src="../../../assets/simsfinalrevised.mp4" type="video/mp4">
+          <source src="../../../assets/simsfinalrevised.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
     <!-- START THE FEATURETTES -->
-    <br>
-    <br>
+    <br />
+    <br />
     <div class="parent-container">
       <div class="container">
         <div class="row">
@@ -296,46 +314,87 @@
             <div>
               <div class="icon-block pb-3">
                 <span class="text-1">
-                  Feel free to drop us a line or give us a call with any enquiries you may have.
+                  Feel free to drop us a line or give us a call with any
+                  enquiries you may have.
                 </span>
-                <br>
+                <br />
                 <span class="text-2 ">
                   We’d love to hear from you!
                 </span>
               </div>
-              <br><br>
+              <br /><br />
             </div>
             <div data-form-type="formoid">
               <div data-form-alert="" hidden="">
                 Thanks for filling out the form!
               </div>
               <form class="block mbr-form" data-form-title="Mobirise Form">
-                <input type="hidden" data-form-email="true">
+                <input type="hidden" data-form-email="true" />
                 <div class="row">
                   <div class="col-md-6  mb-2" data-for="name">
-                    <input type="text" class="form-control input formBorder" name="name" data-form-field="Name"
-                           placeholder="Your Name" required="" id="name-form4-4v" [(ngModel)]="email.fullName"
-                           name="name">
+                    <input
+                      type="text"
+                      class="form-control input formBorder"
+                      name="name"
+                      data-form-field="Name"
+                      placeholder="Your Name"
+                      required=""
+                      id="name-form4-4v"
+                      [(ngModel)]="email.fullName"
+                      name="name"
+                    />
                   </div>
                   <div class="col-md-6  mb-2" data-for="phone">
-                    <input type="text" class="form-control input formBorder" name="phone" data-form-field="Phone"
-                           placeholder="Phone" required="" id="phone-form4-4v" [(ngModel)]="email.phone" name="phone">
+                    <input
+                      type="text"
+                      class="form-control input formBorder"
+                      name="phone"
+                      data-form-field="Phone"
+                      placeholder="Phone"
+                      required=""
+                      id="phone-form4-4v"
+                      [(ngModel)]="email.phone"
+                      name="phone"
+                    />
                   </div>
                   <div class="col-md-12 mb-3" data-for="email">
-                    <input type="text" class="form-control input formBorder" name="email" data-form-field="Email"
-                           placeholder="Email" required="" id="email-form4-4v" [(ngModel)]="email.emailAddress"
-                           name="emailAddress">
+                    <input
+                      type="text"
+                      class="form-control input formBorder"
+                      name="email"
+                      data-form-field="Email"
+                      placeholder="Email"
+                      required=""
+                      id="email-form4-4v"
+                      [(ngModel)]="email.emailAddress"
+                      name="emailAddress"
+                    />
                   </div>
 
                   <div class="col-md-12 mb-2" data-for="message">
-                    <textarea class="form-control input formBorder" name="message" rows="4" data-form-field="Message"
-                              placeholder="Message" style="resize:none" id="message-form4-4v"
-                              [(ngModel)]="email.message"
-                              name="message"></textarea>
+                    <textarea
+                      class="form-control input formBorder"
+                      name="message"
+                      rows="4"
+                      data-form-field="Message"
+                      placeholder="Message"
+                      style="resize:none"
+                      id="message-form4-4v"
+                      [(ngModel)]="email.message"
+                      name="message"
+                    ></textarea>
                   </div>
-                  <div class="input-group-btn col-md-12 mb-2 px-4" style="margin-top: 10px;">
-                    <button href="" type="submit" class="btn btn-warning  btn-contact"
-                            (click)="sendEmail()">Send
+                  <div
+                    class="input-group-btn col-md-12 mb-2 px-4"
+                    style="margin-top: 10px;"
+                  >
+                    <button
+                      href=""
+                      type="submit"
+                      class="btn btn-warning  btn-contact"
+                      (click)="sendEmail()"
+                    >
+                      Send
                     </button>
                   </div>
                 </div>
@@ -345,16 +404,24 @@
 
           <div class="col-3">
             <div class="contactLinks">
-              <input type="image" src="../../../assets/grayLogo.png" class="grayLogo">
-              <br>
-              <br>
+              <input
+                type="image"
+                src="../../../assets/grayLogo.png"
+                class="grayLogo"
+              />
+              <br />
+              <br />
               <button class="col callPhone">Call Phone</button>
-              <br><br>
-              <button class="col phoneNumber"><a href="tel:18028706770"></a>+1 (802) 870-6770</button>
-              <br><br>
+              <br /><br />
+              <button class="col phoneNumber">
+                <a href="tel:18028706770"></a>+1 (802) 870-6770
+              </button>
+              <br /><br />
               <button class="col sendEmail">Send Email</button>
-              <br><br>
-              <button class="col emailAddress"><a href="mailto:sales@sims4usa.com"></a>sales@sims4usa.com</button>
+              <br /><br />
+              <button class="col emailAddress">
+                <a href="mailto:sales@sims4usa.com"></a>sales@sims4usa.com
+              </button>
             </div>
           </div>
         </div>
@@ -362,13 +429,13 @@
     </div>
   </div>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
