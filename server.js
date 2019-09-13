@@ -53,7 +53,7 @@ app.post('/', (req, res) => {
       'Buyer email address: ' +
       payload.payer_email,
     from: req.body.payer_email,
-    to: 'menditoledano@gmail.com',
+    to: 'support@sims4usa.com',
     subject: 'email from '
   };
   try {

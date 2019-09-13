@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as carriers from '../../db/carriers.json';
 
 @Component({
   selector: 'app-store',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class StoreComponent implements OnInit {
 
   constructor() { }
+  carriers = carriers.data;
 
   ngOnInit() {
   }

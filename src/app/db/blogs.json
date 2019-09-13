@@ -4,19 +4,19 @@
       "id": "1",
       "title": "All The Answers",
       "description": "All the necessary information, clear and detailed, on the Sim for your vacation in the United States. A good trip!",
-      "imageSrc": "../../../assets/blog1.jpg"
+      "imageSrc": "/assets/blog1.jpg"
     },
     {
       "id": "2",
       "title": "Love To Travel",
       "description": "The little thing that makes the difference between nerves and calm, between a trip and a perfect trip",
-      "imageSrc": "../../../assets/blog2.jpg"
+      "imageSrc": "/assets/blog2.jpg"
     },
     {
       "id": "3",
       "title": "Always Concected ",
       "description": "On the customers of Sim 4 USA who take advantage of the maximum potential.",
-      "imageSrc": "../../../assets/blog3.jpg"
+      "imageSrc": "/assets/blog3.jpg"
     }
   ]
 }

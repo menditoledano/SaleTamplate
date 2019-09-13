@@ -1,9 +1,9 @@
-import { EmailService } from './../../email.service';
-import { Component, OnInit } from '@angular/core';
-import { Email } from '../../models/email';
+import {EmailService} from './../../email.service';
+import {Component, OnInit} from '@angular/core';
+import {Email} from '../../models/email';
 import swal from 'sweetalert2';
-import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-import { Carrier } from '../../models/carriers.model';
+import {ModalDismissReasons, NgbModal} from '@ng-bootstrap/ng-bootstrap';
+import * as carriers from '../../db/carriers.json';
 
 //
 
@@ -18,40 +18,7 @@ export class HomePageComponent implements OnInit {
     private modalService: NgbModal
   ) {}
 
-  carriers: Carrier[] = [
-    {
-      name: 'Basic Plan - H2O',
-      id: 1,
-      pictureUrl: '',
-      price: '50',
-      paypalButtonId: '6EUPVGWCED8VC',
-      detailes: 'Basic Plan - H2O'
-    },
-    {
-      name: 'Pro Plan - T-Mobile',
-      id: 2,
-      pictureUrl: '',
-      price: '65',
-      paypalButtonId: '79GNJHL8U54LQ',
-      detailes: 'Pro Plan - T-Mobile'
-    },
-    {
-      name: 'Premium Plan - AT&T',
-      id: 3,
-      pictureUrl: '',
-      price: '85',
-      paypalButtonId: '49U339MG7BDGS',
-      detailes: 'Premium Plan - AT&T'
-    },
-    {
-      name: 'Test',
-      id: 4,
-      pictureUrl: '',
-      price: '0.1',
-      paypalButtonId: 'VU3MFB3QLXJGU',
-      detailes: 'test Test unlimited'
-    }
-  ];
+  carriers = carriers.data;
 
   closeResult: string;
   email = new Email('', '', '', '');
