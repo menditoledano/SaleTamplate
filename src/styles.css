@@ -1,9 +1,12 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
-@media (min-width: 350px) {  
+body{
+  font-family: LiberationSansRegular;
+  line-height: 2;
+}
+@media (min-width: 350px) {
   body{
-    /* background-image: url(./assets/background@3x.png); */
-      line-height: 2; 
+    font-family: LiberationSansRegular;
+      line-height: 2;
     }
   }
   b {

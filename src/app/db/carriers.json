@@ -3,15 +3,15 @@
     {
       "name": "Basic Plan - H2O",
       "id": 1,
-      "pictureUrl": "",
+      "pictureUrl": "/assets/h2OLogo.png",
       "price": "50",
       "paypalButtonId": "6EUPVGWCED8VC",
       "detailes": "Basic Plan - H2O"
     },
     {
-      "name": "Pro Plan - T-Mobile",
+      "name": "Pro Plan - Simple Mobile",
       "id": 2,
-      "pictureUrl": "",
+      "pictureUrl": "/assets/simpleLogo.png",
       "price": "65",
       "paypalButtonId": "79GNJHL8U54LQ",
       "detailes": "Pro Plan - T-Mobile"
@@ -19,7 +19,7 @@
     {
       "name": "Premium Plan - AT&T",
       "id": 3,
-      "pictureUrl": "",
+      "pictureUrl": "/assets/attLogoPlan.png",
       "price": "85",
       "paypalButtonId": "49U339MG7BDGS",
       "detailes": "Premium Plan - AT&T"

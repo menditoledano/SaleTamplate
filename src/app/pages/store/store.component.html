@@ -8,10 +8,10 @@
               <div class="title">
                 <img
                   class="img-thumbnail img-fluid plans-image "
-                  src="../../../assets/paperPlane.png"
+                  [src]="carriers[0].pictureUrl"
                 />
 
-                <h1>Basic Plan</h1>
+                <h1>{{carriers[0].name}}</h1>
               </div>
               <div class="price">
                 <h3><sup>$ </sup>{{ carriers[0].price }}</h3>
@@ -49,9 +49,9 @@
               <div class="title">
                 <img
                   class="img-thumbnail img-fluid  plans-image"
-                  src="../../../assets/proPlan.png"
+                  [src]="carriers[1].pictureUrl"
                 />
-                <h1>Pro Plan</h1>
+                <h1>{{carriers[1].name}}</h1>
               </div>
               <div class="price">
                 <h3><sup>$ </sup>{{ carriers[1].price }}</h3>
@@ -88,9 +88,9 @@
               <div class="title">
                 <img
                   class="img-thumbnail img-fluid plans-image "
-                  src="../../../assets/rocket.png"
+                  [src]="carriers[2].pictureUrl"
                 />
-                <h1>Premium Plan</h1>
+                <h1>{{carriers[2].name}}</h1>
               </div>
               <div class="price">
                 <h3><sup>$ </sup>{{ carriers[2].price }}</h3>
@@ -139,10 +139,10 @@
               <div class="title">
                 <img
                   class="img-thumbnail img-fluid plans-image "
-                  src="../../../assets/paperPlane.png"
+                  [src]="carriers[0].pictureUrl"
                 />
 
-                <h1>Basic Plan</h1>
+                <h1>{{carriers[0].name}}</h1>
               </div>
               <div class="price">
                 <h3><sup>$ </sup>{{ carriers[0].price }}</h3>
@@ -180,9 +180,9 @@
               <div class="title">
                 <img
                   class="img-thumbnail img-fluid  plans-image"
-                  src="../../../assets/proPlan.png"
+                  [src]="carriers[1].pictureUrl"
                 />
-                <h1>Pro Plan</h1>
+                <h1>{{carriers[1].name}}</h1>
               </div>
               <div class="price">
                 <h3><sup>$ </sup>{{ carriers[1].price }}</h3>
@@ -219,9 +219,9 @@
               <div class="title">
                 <img
                   class="img-thumbnail img-fluid plans-image "
-                  src="../../../assets/rocket.png"
+                  [src]="carriers[2].pictureUrl"
                 />
-                <h1>Premium Plan</h1>
+                <h1>{{carriers[2].name}}</h1>
               </div>
               <div class="price">
                 <h3><sup>$ </sup>{{ carriers[2].price }}</h3>
