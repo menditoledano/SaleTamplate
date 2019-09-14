@@ -4,5 +4,5 @@ export class Carrier {
    pictureUrl?: string;
    price?: string;
    paypalButtonId?: string;
-   detailes?: string;
+   details?: string;
 }

@@ -74,7 +74,7 @@
       <div class="benefitsNumber">
         1
       </div>
-      <div class="benefitsDetiles1">
+      <div class="benefitsdetails1">
         Cheaper rates in the world,<br />
         <b>check this out!</b>
       </div>
@@ -84,7 +84,7 @@
 
         <!-- <br> -->
       </div>
-      <div class="benefitsDetiles2">
+      <div class="benefitsdetails2">
         Fast Reliable Shipping,<br />
         <b>Within 3 business days.</b>
       </div>
@@ -95,7 +95,7 @@
         3
         <br />
       </div>
-      <div class="benefitsDetiles3">
+      <div class="benefitsdetails3">
         One payment includes all,<br />
         <b>No hidden costs.</b>
       </div>
@@ -107,7 +107,7 @@
         4
         <br />
       </div>
-      <div class="benefitsDetiles4">
+      <div class="benefitsdetails4">
         Perfect service, high reliability,<br />
         <b>Connect before you land!</b>
       </div>
@@ -132,128 +132,180 @@
         <br />
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
+            <div
+              *ngFor="let carrier of carriers | slice: 0:3; let i = index"
+              class="col-sm-4"
+            >
               <div class="card mb-5 text-center">
                 <div class="title">
                   <img
                     class="img-thumbnail img-fluid plans-image "
-                    src="../../../assets/paperPlane.png"
+                    [src]="carrier.iconUrl"
                   />
-
-                  <h1>Basic Plan</h1>
+                  <h1>{{ carrier.name }}</h1>
                 </div>
                 <div class="price">
-                  <h3><sup>$ </sup>{{ carriers[0].price }}</h3>
+                  <h3><sup>$ </sup>{{ carrier.price }}</h3>
                 </div>
                 <br />
 
                 <div class="option">
                   <ul>
-                    <li class="bold">
-                      For 1 week - 7 days
+                    <li
+                      *ngFor="let currDetails of carrier.details"
+                      class="bold"
+                    >
+                      {{ currDetails }}
                     </li>
-                    <li>
-                      Unlimited calls in US
+                    <li (click)="clicked(i)">
+                      <i class="material-icons">
+                        arrow_drop_down
+                      </i>
                     </li>
-                    <li>
-                      Unlimited sms in US
-                    </li>
-                    <li>
-                      Unlimited data with 6GB LTE
-                    </li>
-                    <li>
-                      Unlimited hot-spot
-                    </li>
+                    <div *ngIf="carrier.show" class="more-details">
+                      <div *ngFor="let currMoreDetails of carrier.moreDetails">
+                        <li>
+                          {{ currMoreDetails.label }}
+                        </li>
+                        <li>
+                          <a
+                            class="hyperLink"
+                            href="{{ currMoreDetails.link }}"
+                            >{{ currMoreDetails.text }}</a
+                          >
+                        </li>
+                      </div>
+                    </div>
                   </ul>
+                  <a [routerLink]="['/payment']" [state]="carrier">Order now</a>
                 </div>
-                <!--            prodaction:                 <a [routerLink]="['/payment']" [state]="carriers[0]"-->
-                <a [routerLink]="['/payment']" [state]="carriers[3]"
-                  >Order now</a
-                >
-
-                <!-- TEST ONLY <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VU3MFB3QLXJGU">Order now</a> -->
               </div>
+              <br />
             </div>
+            <!--          </div>-->
+            <!--        </div>-->
+            <!--            <div class="col-sm-4">-->
+            <!--              <div class="card mb-5 text-center">-->
+            <!--                <div class="title">-->
+            <!--                  <img-->
+            <!--                    class="img-thumbnail img-fluid plans-image "-->
+            <!--                    src="../../../assets/paperPlane.png"-->
+            <!--                  />-->
 
-            <div class="col-sm-4">
-              <div class="card mb-5 text-center">
-                <div class="title">
-                  <img
-                    class="img-thumbnail img-fluid  plans-image"
-                    src="../../../assets/proPlan.png"
-                  />
-                  <h1>Pro Plan</h1>
-                </div>
-                <div class="price">
-                  <h3><sup>$ </sup>{{ carriers[1].price }}</h3>
-                </div>
-                <br />
+            <!--                  <h1>Basic Plan</h1>-->
+            <!--                </div>-->
+            <!--                <div class="price">-->
+            <!--                  <h3><sup>$ </sup>{{ carriers[0].price }}</h3>-->
+            <!--                </div>-->
+            <!--                <br />-->
 
-                <div class="option">
-                  <ul>
-                    <li class="bold">
-                      For 1 month - 30 days
-                    </li>
-                    <li>
-                      Unlimited calls in US
-                    </li>
-                    <li>
-                      Unlimited sms in US
-                    </li>
-                    <li>
-                      TRULY Unlimited 4G LTE data
-                    </li>
-                    <li>
-                      unlimited calls to 69 countries
-                    </li>
-                    <li>
-                      Fast shipping
-                    </li>
-                  </ul>
-                </div>
-                <a [routerLink]="['/payment']" [state]="carriers[1]"
-                  >Order now</a
-                >
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card mb-5 text-center">
-                <div class="title">
-                  <img
-                    class="img-thumbnail img-fluid plans-image "
-                    src="../../../assets/rocket.png"
-                  />
-                  <h1>Premium Plan</h1>
-                </div>
-                <div class="price">
-                  <h3><sup>$ </sup>{{ carriers[2].price }}</h3>
-                </div>
-                <br />
+            <!--                <div class="option">-->
+            <!--                  <ul>-->
+            <!--                    <li class="bold">-->
+            <!--                      For 1 week - 7 days-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited calls in US-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited sms in US-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited data with 6GB LTE-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited hot-spot-->
+            <!--                    </li>-->
+            <!--                  </ul>-->
+            <!--                </div>-->
+            <!--                &lt;!&ndash;            prodaction:                 <a [routerLink]="['/payment']" [state]="carriers[0]"&ndash;&gt;-->
+            <!--                <a [routerLink]="['/payment']" [state]="carriers[3]"-->
+            <!--                  >Order now</a-->
+            <!--                >-->
 
-                <div class="option">
-                  <ul>
-                    <li class="bold">
-                      For 1 month - 30 days
-                    </li>
-                    <li>
-                      Unlimited calls in US
-                    </li>
-                    <li>
-                      Unlimited sms in US
-                    </li>
-                    <li>
-                      Unlimited 4G LTE
-                    </li>
-                    <li>
-                      Unlimited text internationally
-                    </li>
-                  </ul>
-                </div>
-                <a [routerLink]="['/payment']" [state]="carriers[2]"
-                  >Order now</a
-                >
-              </div>
-            </div>
+            <!--                &lt;!&ndash; TEST ONLY <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VU3MFB3QLXJGU">Order now</a> &ndash;&gt;-->
+            <!--              </div>-->
+            <!--            </div>-->
+
+            <!--            <div class="col-sm-4">-->
+            <!--              <div class="card mb-5 text-center">-->
+            <!--                <div class="title">-->
+            <!--                  <img-->
+            <!--                    class="img-thumbnail img-fluid  plans-image"-->
+            <!--                    src="../../../assets/proPlan.png"-->
+            <!--                  />-->
+            <!--                  <h1>Pro Plan</h1>-->
+            <!--                </div>-->
+            <!--                <div class="price">-->
+            <!--                  <h3><sup>$ </sup>{{ carriers[1].price }}</h3>-->
+            <!--                </div>-->
+            <!--                <br />-->
+
+            <!--                <div class="option">-->
+            <!--                  <ul>-->
+            <!--                    <li class="bold">-->
+            <!--                      For 1 month - 30 days-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited calls in US-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited sms in US-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      TRULY Unlimited 4G LTE data-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      unlimited calls to 69 countries-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Fast shipping-->
+            <!--                    </li>-->
+            <!--                  </ul>-->
+            <!--                </div>-->
+            <!--                <a [routerLink]="['/payment']" [state]="carriers[1]"-->
+            <!--                  >Order now</a-->
+            <!--                >-->
+            <!--              </div>-->
+            <!--            </div>-->
+            <!--            <div class="col-sm-4">-->
+            <!--              <div class="card mb-5 text-center">-->
+            <!--                <div class="title">-->
+            <!--                  <img-->
+            <!--                    class="img-thumbnail img-fluid plans-image "-->
+            <!--                    src="../../../assets/rocket.png"-->
+            <!--                  />-->
+            <!--                  <h1>Premium Plan</h1>-->
+            <!--                </div>-->
+            <!--                <div class="price">-->
+            <!--                  <h3><sup>$ </sup>{{ carriers[2].price }}</h3>-->
+            <!--                </div>-->
+            <!--                <br />-->
+
+            <!--                <div class="option">-->
+            <!--                  <ul>-->
+            <!--                    <li class="bold">-->
+            <!--                      For 1 month - 30 days-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited calls in US-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited sms in US-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited 4G LTE-->
+            <!--                    </li>-->
+            <!--                    <li>-->
+            <!--                      Unlimited text internationally-->
+            <!--                    </li>-->
+            <!--                  </ul>-->
+            <!--                </div>-->
+            <!--                <a [routerLink]="['/payment']" [state]="carriers[2]"-->
+            <!--                  >Order now</a-->
+            <!--                >-->
+            <!--              </div>-->
+            <!--            </div>-->
 
             <br />
             <input

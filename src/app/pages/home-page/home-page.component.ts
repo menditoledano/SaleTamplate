@@ -10,7 +10,7 @@ import * as carriers from '../../db/carriers.json';
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.css']
+  styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent implements OnInit {
   constructor(
@@ -19,6 +19,7 @@ export class HomePageComponent implements OnInit {
   ) {}
 
   carriers = carriers.data;
+
 
   closeResult: string;
   email = new Email('', '', '', '');
@@ -29,7 +30,12 @@ export class HomePageComponent implements OnInit {
     const events = event;
     console.log(events);
   }
-
+  clicked(index) {
+    // only show clicked img info
+    console.log(this.carriers[index]);
+    // @ts-ignore
+    this.carriers[index].show = !this.carriers[index].show;
+  }
   open(content) {
     this.modalService
       .open(content, { ariaLabelledBy: 'modal-basic-title' })

@@ -1,0 +1,20 @@
+@import '../home-page/home-page.component.scss';
+
+.store-wrapper {
+  margin-top: 50px;
+}
+.plans-image {
+  width: 40%;
+}
+.option a {
+  @extend .option;
+  color: #3638d5;
+  border-bottom: 1px solid #3638d5;
+}
+.more-details {
+  @extend .option;
+  //display: none;
+}
+.toggle:hover + .more-details {
+  display: block;
+}

@@ -1,36 +1,187 @@
 {
   "data": [
     {
-      "name": "Basic Plan - H2O",
+      "name": "Basic Plan",
+      "company": "H2O Plan",
       "id": 1,
       "pictureUrl": "/assets/h2OLogo.png",
+      "iconUrl": "/assets/paperPlane.png",
       "price": "50",
       "paypalButtonId": "6EUPVGWCED8VC",
-      "detailes": "Basic Plan - H2O"
+      "details": [
+        "For 1 week - 7 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "works on att network",
+          "text": "check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "unlimited calls to 50+ countries",
+          "text": "check countries here",
+          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+        },
+        { "label": "unlimited text worldwide" },
+        { "label": "unlimited data with 6GB 4G LTE*" }
+      ],
+      "show": false
     },
     {
-      "name": "Pro Plan - Simple Mobile",
+      "name": "Pro Plan",
+      "company": "Simple Mobile",
       "id": 2,
       "pictureUrl": "/assets/simpleLogo.png",
+      "iconUrl": "/assets/proPlan.png",
       "price": "65",
       "paypalButtonId": "79GNJHL8U54LQ",
-      "detailes": "Pro Plan - Simple Mobile"
+      "details": [
+        "For 1 week - 7 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "works on att network",
+          "text": "check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "unlimited calls to 50+ countries",
+          "text": "check countries here",
+          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+        },
+        { "label": "unlimited text worldwide" },
+        { "label": "unlimited data with 6GB 4G LTE*" }
+      ],
+      "show": false
     },
     {
-      "name": "Premium Plan - AT&T",
+      "name": "Premium Plan",
+      "company": "AT&T Plan",
       "id": 3,
       "pictureUrl": "/assets/attLogoPlan.png",
+      "iconUrl": "/assets/rocket.png",
       "price": "85",
       "paypalButtonId": "49U339MG7BDGS",
-      "detailes": "Premium Plan - AT&T"
+      "details": [
+        "For 1 week - 7 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "works on att network",
+          "text": "check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "unlimited calls to 50+ countries",
+          "text": "check countries here",
+          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+        },
+        { "label": "unlimited text worldwide" },
+        { "label": "unlimited data with 6GB 4G LTE*" }
+      ],
+      "show": false
     },
     {
       "name": "Test",
+      "company": "Test",
       "id": 4,
       "pictureUrl": "",
       "price": "0.1",
       "paypalButtonId": "VU3MFB3QLXJGU",
-      "detailes": "test Test unlimited"
+      "details": [
+        "For 1 week - 7 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "works on att network",
+          "text": "check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "unlimited calls to 50+ countries",
+          "text": "check countries here",
+          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+        },
+        { "label": "unlimited text worldwide" },
+        { "label": "unlimited data with 6GB 4G LTE*" }
+      ],
+      "show": false
+    },
+    {
+      "name": "AT&T Plan",
+      "company": "AT&T Plan",
+      "id": 3,
+      "pictureUrl": "/assets/attLogoPlan.png",
+      "price": "85",
+      "paypalButtonId": "49U339MG7BDGS",
+      "details": [
+        "For 1 week - 7 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "works on att network",
+          "text": "check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "unlimited calls to 50+ countries",
+          "text": "check countries here",
+          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+        },
+        { "label": "unlimited text worldwide" },
+        { "label": "unlimited data with 6GB 4G LTE*" }
+      ],
+      "show": false
+    },
+    {
+      "name": "AT&T Plan",
+      "company": "AT&T Plan",
+      "id": 3,
+      "pictureUrl": "/assets/attLogoPlan.png",
+      "price": "85",
+      "paypalButtonId": "49U339MG7BDGS",
+      "details": [
+        "For 1 week - 7 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "works on att network",
+          "text": "check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "unlimited calls to 50+ countries",
+          "text": "check countries here",
+          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+        },
+        { "label": "unlimited text worldwide" },
+        { "label": "unlimited data with 6GB 4G LTE*" }
+      ],
+      "show": false
     }
   ]
 }

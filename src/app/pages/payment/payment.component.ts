@@ -1,13 +1,12 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {DOCUMENT} from '@angular/common';
 import swal from 'sweetalert2';
-import {Carrier} from '../../models/carriers.model';
 
 
 @Component({
   selector: 'app-payment',
   templateUrl: './payment.component.html',
-  styleUrls: ['./payment.component.css']
+  styleUrls: ['./payment.component.scss']
 })
 export class PaymentComponent implements OnInit {
 
@@ -16,7 +15,7 @@ export class PaymentComponent implements OnInit {
 
   choosenDate: any = -1;
   debugger;
-  inputState: Carrier = history.state;
+  inputState = history.state;
 
   onSubmitBuy() {
     if (this.choosenDate === -1) {

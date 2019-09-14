@@ -39,6 +39,8 @@ app.post('/', (req, res) => {
       '\n\n' +
       'Buyer name: ' +
       payload.address_name +
+      '\nItem is: ' +
+      payload.item_name +
       '\nDate of Arrive on USA: ' +
       payload.custom +
       '\nAdrress: ' +

@@ -4,16 +4,16 @@ import * as carriers from '../../db/carriers.json';
 @Component({
   selector: 'app-store',
   templateUrl: './store.component.html',
-  styleUrls: ['./store.component.css']
+  styleUrls: ['./store.component.scss']
 })
 export class StoreComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
   carriers = carriers.data;
-
-  ngOnInit() {
+  clicked(index) {
+    // only show clicked img info
+    console.log(this.carriers[index]);
+    // @ts-ignore
+    this.carriers[index].show = !this.carriers[index].show;
   }
-
+  ngOnInit() {}
 }
-
-
