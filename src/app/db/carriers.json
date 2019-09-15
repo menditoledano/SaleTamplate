@@ -17,17 +17,17 @@
       ],
       "moreDetails": [
         {
-          "label": "works on att network",
-          "text": "check coverage here",
+          "label": "Works on At&t network",
+          "text": "Check coverage here",
           "link": "https://www.h2owirelessnow.com/coverage"
         },
         {
-          "label": "unlimited calls to 50+ countries",
-          "text": "check countries here",
+          "label": "Unlimited calls to 50+ countries",
+          "text": "Check countries here",
           "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
         },
-        { "label": "unlimited text worldwide" },
-        { "label": "unlimited data with 6GB 4G LTE*" }
+        { "label": "Unlimited text worldwide" },
+        { "label": "Unlimited data with 6GB 4G LTE*" }
       ],
       "show": false
     },
@@ -48,17 +48,21 @@
       ],
       "moreDetails": [
         {
-          "label": "works on att network",
-          "text": "check coverage here",
-          "link": "https://www.h2owirelessnow.com/coverage"
+          "label": "Works on t-mobile network",
+          "text": "Check coverage here",
+          "link": "https://www.mysimplephones.com/Simple-Mobile-Coverage.html"
         },
         {
-          "label": "unlimited calls to 50+ countries",
-          "text": "check countries here",
-          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+          "label": "Unlimited calls to 69 countries",
+          "text": "Check countries here",
+          "link": "https://www.simplemobile.com/ilddestinations"
         },
-        { "label": "unlimited text worldwide" },
-        { "label": "unlimited data with 6GB 4G LTE*" }
+        {
+          "label": "International Roaming to 16 Latin America",
+          "text": "Check countries here",
+          "link": "https://www.simplemobile.com/ildroaming"
+        },
+        { "label": "TRULY Unlimited data 4G LTE" }
       ],
       "show": false
     },
@@ -71,7 +75,7 @@
       "price": "85",
       "paypalButtonId": "49U339MG7BDGS",
       "details": [
-        "For 1 week - 7 days",
+        "For 1 month - 30 days",
         "Unlimited calls in US",
         "Unlimited sms in US",
         "Unlimited 4G LTE",
@@ -79,24 +83,28 @@
       ],
       "moreDetails": [
         {
-          "label": "works on att network",
-          "text": "check coverage here",
+          "label": "Works on At&t network",
+          "text": "Check coverage here",
           "link": "https://www.h2owirelessnow.com/coverage"
         },
         {
-          "label": "unlimited calls to 50+ countries",
-          "text": "check countries here",
-          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+          "label": "Unlimited calls and text to mexico and canada"
         },
-        { "label": "unlimited text worldwide" },
-        { "label": "unlimited data with 6GB 4G LTE*" }
+        {
+          "label": "Unlimited text worldwide",
+          "text": "Check countries here",
+          "link": "https://www.At&t.com/ecms/sharedcontent/en/legal/WirelessOffers/PlansServicesFeatures/GoPhone/gophone_internationallongdistancelander/_jcr_content/desktoplegal/legalsharedcontent.modal.html"
+        },
+        {
+          "label": "After 22gb data may be slow down"
+        }
       ],
       "show": false
     },
     {
       "name": "Test",
       "company": "Test",
-      "id": 4,
+      "id": -1,
       "pictureUrl": "",
       "price": "0.1",
       "paypalButtonId": "VU3MFB3QLXJGU",
@@ -109,26 +117,62 @@
       ],
       "moreDetails": [
         {
-          "label": "works on att network",
-          "text": "check coverage here",
+          "label": "Works on At&t network",
+          "text": "Check coverage here",
           "link": "https://www.h2owirelessnow.com/coverage"
         },
         {
-          "label": "unlimited calls to 50+ countries",
-          "text": "check countries here",
+          "label": "Unlimited calls to 50+ countries",
+          "text": "Check countries here",
           "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
         },
-        { "label": "unlimited text worldwide" },
-        { "label": "unlimited data with 6GB 4G LTE*" }
+        { "label": "Unlimited text worldwide" },
+        { "label": "Unlimited data with 6GB 4G LTE*" }
       ],
       "show": false
     },
     {
-      "name": "AT&T Plan",
+      "name": "Premium Plan",
       "company": "AT&T Plan",
-      "id": 3,
+      "id": 4,
       "pictureUrl": "/assets/attLogoPlan.png",
-      "price": "85",
+      "iconUrl": "/assets/rocket.png",
+      "price": "65",
+      "paypalButtonId": "49U339MG7BDGS",
+      "details": [
+        "For 2 weeks - 15 days",
+        "Unlimited calls in US",
+        "Unlimited sms in US",
+        "Unlimited 4G LTE",
+        "Unlimited hot-spot"
+      ],
+      "moreDetails": [
+        {
+          "label": "Works on At&t network",
+          "text": "Check coverage here",
+          "link": "https://www.h2owirelessnow.com/coverage"
+        },
+        {
+          "label": "Unlimited calls and text to mexico and canada"
+        },
+        {
+          "label": "Unlimited text worldwide",
+          "text": "Check countries here",
+          "link": "https://www.At&t.com/ecms/sharedcontent/en/legal/WirelessOffers/PlansServicesFeatures/GoPhone/gophone_internationallongdistancelander/_jcr_content/desktoplegal/legalsharedcontent.modal.html"
+        },
+        {
+          "label": "After 22gb data may be slow down"
+        }
+      ],
+      "show": false
+    },
+    {
+      "name": "Premium Plan",
+      "company": "AT&T Plan",
+      "id": 5,
+      "pictureUrl": "/assets/attLogoPlan.png",
+      "iconUrl": "/assets/rocket.png",
+      "price": "50",
       "paypalButtonId": "49U339MG7BDGS",
       "details": [
         "For 1 week - 7 days",
@@ -139,47 +183,21 @@
       ],
       "moreDetails": [
         {
-          "label": "works on att network",
-          "text": "check coverage here",
+          "label": "Works on At&t network",
+          "text": "Check coverage here",
           "link": "https://www.h2owirelessnow.com/coverage"
         },
         {
-          "label": "unlimited calls to 50+ countries",
-          "text": "check countries here",
-          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
-        },
-        { "label": "unlimited text worldwide" },
-        { "label": "unlimited data with 6GB 4G LTE*" }
-      ],
-      "show": false
-    },
-    {
-      "name": "AT&T Plan",
-      "company": "AT&T Plan",
-      "id": 3,
-      "pictureUrl": "/assets/attLogoPlan.png",
-      "price": "85",
-      "paypalButtonId": "49U339MG7BDGS",
-      "details": [
-        "For 1 week - 7 days",
-        "Unlimited calls in US",
-        "Unlimited sms in US",
-        "Unlimited 4G LTE",
-        "Unlimited hot-spot"
-      ],
-      "moreDetails": [
-        {
-          "label": "works on att network",
-          "text": "check coverage here",
-          "link": "https://www.h2owirelessnow.com/coverage"
+          "label": "Unlimited calls and text to mexico and canada"
         },
         {
-          "label": "unlimited calls to 50+ countries",
-          "text": "check countries here",
-          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
+          "label": "Unlimited text worldwide",
+          "text": "Check countries here",
+          "link": "https://www.At&t.com/ecms/sharedcontent/en/legal/WirelessOffers/PlansServicesFeatures/GoPhone/gophone_internationallongdistancelander/_jcr_content/desktoplegal/legalsharedcontent.modal.html"
         },
-        { "label": "unlimited text worldwide" },
-        { "label": "unlimited data with 6GB 4G LTE*" }
+        {
+          "label": "After 22gb data may be slow down"
+        }
       ],
       "show": false
     }
