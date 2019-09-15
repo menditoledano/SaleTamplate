@@ -10,19 +10,19 @@ Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 350px) {
-
   .carousel-inner img {
     width: 100%;
     /* margin:center; */
     min-height: 240px;
     max-height: 240px;
+    margin-bottom: 5%;
   }
 
   .Sim-card-for-USA {
     width: 120px;
     height: 61px;
     font-family: Montserrat;
-    font-size: 26.9px;
+    font-size: 7vw;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -58,6 +58,10 @@ Bootstrap 4 breakpoints
     transform: translateY(-50%);
     max-height: 20px;
     max-width: 80px;
+  }
+
+  .featuredPlans {
+    font-size: 7vw;
   }
 }
 
@@ -103,11 +107,7 @@ Bootstrap 4 breakpoints
 
   .Rectangle-6-Copy-2 {
     font-family: Montserrat;
-    font-style: bold;
     font-weight: 500;
-    src: local("Montserrat-Bold"),
-    url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype");
-
     font-size: 18px;
     width: 220px;
     height: 42px;
@@ -124,7 +124,6 @@ Bootstrap 4 breakpoints
 
   .carousel-inner img {
     width: 100%;
-    margin: center;
     min-height: 300px;
     max-height: 500px;
   }
@@ -136,7 +135,6 @@ Bootstrap 4 breakpoints
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
   .Sim-card-for-USA {
     width: 300px;
     height: 120px;
@@ -173,11 +171,7 @@ Bootstrap 4 breakpoints
 
   .Rectangle-6-Copy-2 {
     font-family: Montserrat;
-    font-style: bold;
     font-weight: 500;
-    src: local("Montserrat-Bold"),
-    url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcvEr6Hm6RMS0v1dtXsGir4g.ttf) format("truetype");
-
     font-size: 18px;
     width: 220px;
     height: 42px;
@@ -185,12 +179,10 @@ Bootstrap 4 breakpoints
     background-color: #ffc410;
     color: #2424cf;
     top: 63%;
-
     max-height: 42px;
     max-width: 220px;
     line-height: 1.13;
     letter-spacing: normal;
-
     transform: translateY(-50%);
   }
 
@@ -205,7 +197,6 @@ Bootstrap 4 breakpoints
   }
 }
 
-
 .row {
   min-height: 35vh;
 }
@@ -219,11 +210,10 @@ Bootstrap 4 breakpoints
   padding: 2.25rem 0;
   position: relative;
   will-change: transform;
-
 }
 
 .card:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -232,7 +222,6 @@ Bootstrap 4 breakpoints
   background-color: #57e2b2;
   transition: 0.5s;
   filter: none;
-
 }
 
 .card:hover {
@@ -253,7 +242,6 @@ Bootstrap 4 breakpoints
 
 .card .card-title {
   margin-bottom: 1rem;
-
 }
 
 .card .card-block {
@@ -278,7 +266,6 @@ Bootstrap 4 breakpoints
   font-weight: 400;
   top: -45px;
   letter-spacing: 0px;
-
 }
 
 .display-2 .period {
@@ -309,7 +296,6 @@ Bootstrap 4 breakpoints
   background-color: #57e2b2;
 }
 
-
 section {
   width: 100%;
   height: 100vh;
@@ -339,20 +325,20 @@ section {
 
 .col-sm-4:nth-child(1) .card,
 .col-sm-4:nth-child(1) .card .title .fa-telegram-plane {
-  background: white
+  background: white;
 }
 
 .col-sm-4:nth-child(2) .card,
 .col-sm-4:nth-child(2) .card .title .fas {
-  background: white
+  background: white;
 }
 
 .col-sm-4:nth-child(3) .card {
-  background: white
+  background: white;
 }
 
 .card:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -397,7 +383,6 @@ section {
 }
 
 .price {
-
   position: relative;
   z-index: 2;
 }
@@ -481,13 +466,11 @@ ul li.bold {
   border: none;
 }
 
-
 .carousel-control-prev,
 .carousel-control-next {
   bottom: 10%;
   /* font-size: 55px; */
 }
-
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -533,10 +516,8 @@ ul li.bold {
 }
 
 .grayLogo {
-
   width: 45%;
   height: 30%;
-
 }
 
 .parent-container {
@@ -547,7 +528,6 @@ ul li.bold {
   text-align: center;
   position: relative;
   top: 20%;
-  left: 100%;
   line-height: 1.27;
 }
 
@@ -560,11 +540,11 @@ ul li.bold {
   border-radius: 30px;
   background-color: #3638d5;
   color: white;
-  filter: grayscale(5)
+  filter: grayscale(5);
 }
 
 .callPhone:hover {
-  filter: none
+  filter: none;
 }
 
 .phoneNumber {
@@ -580,7 +560,7 @@ ul li.bold {
 }
 
 .phoneNumber:hover {
-  filter: none
+  filter: none;
 }
 
 .sendEmail {
@@ -596,7 +576,7 @@ ul li.bold {
 }
 
 .sendEmail:hover {
-  filter: none
+  filter: none;
 }
 
 .emailAddress {
@@ -612,7 +592,7 @@ ul li.bold {
 }
 
 .emailAddress:hover {
-  filter: none
+  filter: none;
 }
 
 .formBorder {
@@ -632,7 +612,6 @@ ul li.bold {
   text-align: center;
   color: #3638d5;
 }
-
 
 .viewAllPlans {
   position: absolute;
@@ -694,7 +673,7 @@ ul li.bold {
   font-family: Montserrat;
   font-style: italic;
   font-weight: 600;
-  left: -5%;
+  margin-left: 0%;
   text-align: left;
   color: #3133d4;
 }
@@ -706,7 +685,7 @@ ul li.bold {
   position: absolute;
   font-size: 2.5vw;
   font-family: Montserrat;
-  left: -5%;
+  margin-left: 0%;
   text-align: left;
   color: #ffc516;
 }
@@ -718,7 +697,7 @@ ul li.bold {
   position: absolute;
   font-size: 0.9vw;
   font-family: Montserrat;
-  left: 0%;
+  left: 5%;
   text-align: left;
   color: #333132;
 }
@@ -729,7 +708,7 @@ ul li.bold {
   position: absolute;
   font-size: 0.9vw;
   font-family: Montserrat;
-  left: 0%;
+  left: 5%;
   text-align: left;
   color: #333132;
   top: 62%;
@@ -741,7 +720,7 @@ ul li.bold {
   position: absolute;
   font-size: 0.9vw;
   font-family: Montserrat;
-  left: 0%;
+  left: 5%;
   text-align: left;
   color: #333132;
   top: 72%;
@@ -753,7 +732,7 @@ ul li.bold {
   position: absolute;
   font-size: 0.9vw;
   font-family: Montserrat;
-  left: 0%;
+  left: 5%;
   text-align: left;
   color: #333132;
   top: 82%;
