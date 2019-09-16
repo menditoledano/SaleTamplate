@@ -121,85 +121,75 @@
         <br />
         <br />
         <br />
-        <div class="container">
-          <div class="row">
-            <div
-              *ngFor="let carrier of carriers | slice: 0:3; let i = index"
-              class="col-sm-4"
-            >
-              <div class="card mb-5 text-center">
-                <div class="title">
-                  <img
-                    class="img-thumbnail img-fluid plans-image "
-                    [src]="carrier.iconUrl"
-                  />
-                  <h1>{{ carrier.name }}</h1>
-                </div>
-                <div class="price">
-                  <h3><sup>$ </sup>{{ carrier.price }}</h3>
+        <div class="main-plans">
+          <div class="container">
+            <div class="row">
+              <div
+                *ngFor="let carrier of carriers | slice: 0:3; let i = index"
+                class="col-sm-4"
+              >
+                <div class="card mb-5 text-center">
+                  <div class="title">
+                    <img
+                      class="img-thumbnail img-fluid plans-image "
+                      [src]="carrier.iconUrl"
+                    />
+                    <h1>{{ carrier.name }}</h1>
+                  </div>
+                  <div class="price">
+                    <h3><sup>$ </sup>{{ carrier.price }}</h3>
+                  </div>
+                  <br />
+
+                  <div class="option">
+                    <ul>
+                      <li
+                        *ngFor="let currDetails of carrier.details"
+                        class="bold"
+                      >
+                        {{ currDetails }}
+                      </li>
+                      <li (click)="clicked(i)">
+                        <i class="material-icons">
+                          arrow_drop_down
+                        </i>
+                      </li>
+                      <div *ngIf="carrier.show" class="more-details">
+                        <div
+                          *ngFor="let currMoreDetails of carrier.moreDetails"
+                        >
+                          <li>
+                            {{ currMoreDetails.label }}
+                          </li>
+                          <li>
+                            <a
+                              class="hyperLink"
+                              href="{{ currMoreDetails.link }}"
+                              >{{ currMoreDetails.text }}</a
+                            >
+                          </li>
+                        </div>
+                      </div>
+                    </ul>
+                    <a [routerLink]="['/payment']" [state]="carrier"
+                      >Order now</a
+                    >
+                  </div>
                 </div>
                 <br />
-
-                <div class="option">
-                  <ul>
-                    <li
-                      *ngFor="let currDetails of carrier.details"
-                      class="bold"
-                    >
-                      {{ currDetails }}
-                    </li>
-                    <li (click)="clicked(i)">
-                      <i class="material-icons">
-                        arrow_drop_down
-                      </i>
-                    </li>
-                    <div *ngIf="carrier.show" class="more-details">
-                      <div *ngFor="let currMoreDetails of carrier.moreDetails">
-                        <li>
-                          {{ currMoreDetails.label }}
-                        </li>
-                        <li>
-                          <a
-                            class="hyperLink"
-                            href="{{ currMoreDetails.link }}"
-                            >{{ currMoreDetails.text }}</a
-                          >
-                        </li>
-                      </div>
-                    </div>
-                  </ul>
-                  <a [routerLink]="['/payment']" [state]="carrier">Order now</a>
-                </div>
               </div>
-              <br />
+              <img
+                src="../../../assets/yelloSim.png"
+                class="yelloSim"
+              />
+              <span class="viewAllPlans" [routerLink]="['/store']">
+                VIEW ALL PLANS
+              </span>
             </div>
-            <br />
-            <input
-              type="image"
-              src="../../../assets/yelloSim.png"
-              class="yelloSim"
-            />
-            <span class="viewAllPlans ">
-              VIEW ALL PLANS
-            </span>
           </div>
         </div>
       </div>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <div class="container">
       <div class="box">
         <img
@@ -215,17 +205,10 @@
         </video>
       </div>
     </div>
-    <br />
-    <br />
-    <br />
-    <br />
-    <!-- START THE FEATURETTES -->
-    <br />
-    <br />
     <div class="parent-container">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6 col-xs-3">
             <h3 class="pb-3 align-left mbr-fonts-style  contactUs">
               Contact Us
             </h3>
