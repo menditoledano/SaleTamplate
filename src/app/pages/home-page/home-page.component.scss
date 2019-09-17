@@ -18,14 +18,14 @@ Bootstrap 4 breakpoints
     margin-bottom: 5%;
   }
   .yelloSim {
-    width: 100%;
+    display: none;
   }
   .Sim-card-for-USA {
     width: 120px;
     height: 61px;
     font-family: Montserrat;
     font-size: 7vw;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.19;
@@ -53,13 +53,10 @@ Bootstrap 4 breakpoints
   }
 
   .Rectangle-6-Copy-2 {
-    width: 10px;
-    height: 5px;
+    width: 70px;
     border-radius: 20.6px;
     top: 68%;
     transform: translateY(-50%);
-    max-height: 20px;
-    max-width: 80px;
   }
 
   .featuredPlans {
@@ -185,7 +182,7 @@ Bootstrap 4 breakpoints
     letter-spacing: -0.6px;
     text-align: center;
     color: #3638d5;
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #ffc516;
     cursor: pointer;
   }
 }
@@ -200,8 +197,8 @@ Bootstrap 4 breakpoints
     width: 300px;
     height: 120px;
     font-family: Montserrat;
-    font-size: 3vw;
-    font-weight: 500;
+    font-size: 3.4vw;
+    font-weight: 600;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.13;
@@ -233,12 +230,9 @@ Bootstrap 4 breakpoints
   .Rectangle-6-Copy-2 {
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 18px;
     width: 220px;
-    height: 42px;
+    height: 45px;
     border-radius: 23.6px;
-    background-color: #ffc410;
-    color: #2424cf;
     top: 63%;
 
     line-height: 1.13;
@@ -374,9 +368,9 @@ Bootstrap 4 breakpoints
     color: #3638d5;
     border-bottom: 4px solid white;
     cursor: pointer;
-
   }
   .yelloSim {
+    display: block;
     width: 75%;
     left: 13%;
     z-index: -1;
@@ -392,7 +386,7 @@ Bootstrap 4 breakpoints
     height: 120px;
     font-family: Montserrat;
     font-size: 4vw;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.13;
@@ -565,7 +559,6 @@ Bootstrap 4 breakpoints
     color: #3638d5;
     border-bottom: 4px solid white;
     cursor: pointer;
-
   }
   .yelloSim {
     width: 85%;
@@ -1011,7 +1004,19 @@ ul li.bold {
   border-radius: 2vw;
   position: absolute;
 }
-
+.video-text {
+  margin: 0 8px;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 200;
+  left: 80%;
+  width: 15vw;
+  font-size: 1.4vw;
+  line-height: normal;
+  text-align: left;
+  color: #212529;
+  letter-spacing: 1px;
+}
 .hassleFree {
   position: absolute;
   left: 44%;
@@ -1045,4 +1050,8 @@ ul li.bold {
   @extend .option;
   color: #3638d5;
   border-bottom: 1px solid #3638d5;
+}
+.buy-now {
+  //background-image: url(../../../assets/buy-now@3x.png);
+  //background-size: cover; /* Resize the background image to cover the entire container */
 }
