@@ -101,10 +101,11 @@ Bootstrap 4 breakpoints
   }
   .benefitsNumber {
     top: 50%;
-    line-height: 4vw;
+    line-height: 6vw;
     align-content: center;
     position: absolute;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    font-weight: 200;
     font-family: Montserrat;
     margin-left: 10%;
     text-align: left;
@@ -116,7 +117,7 @@ Bootstrap 4 breakpoints
     line-height: normal;
     align-content: center;
     position: absolute;
-    font-size: 0.9vw;
+    font-size: 2vw;
     font-family: Montserrat;
     left: 13%;
     text-align: left;
@@ -127,36 +128,36 @@ Bootstrap 4 breakpoints
     line-height: normal;
     align-content: center;
     position: absolute;
-    font-size: 0.9vw;
+    font-size: 2vw;
     font-family: Montserrat;
     left: 13%;
     text-align: left;
     color: #333132;
-    top: 58%;
+    top: 62%;
   }
 
   .benefitsdetails3 {
     line-height: normal;
     align-content: center;
     position: absolute;
-    font-size: 0.9vw;
+    font-size: 2vw;
     font-family: Montserrat;
     left: 13%;
     text-align: left;
     color: #333132;
-    top: 64%;
+    top: 71%;
   }
 
   .benefitsdetails4 {
     line-height: normal;
     align-content: center;
     position: absolute;
-    font-size: 0.9vw;
+    font-size: 2vw;
     font-family: Montserrat;
     left: 13%;
     text-align: left;
     color: #333132;
-    top: 70%;
+    top: 80%;
   }
   .featuredPlans {
     border-bottom: 3px solid #ffc516;
@@ -184,6 +185,7 @@ Bootstrap 4 breakpoints
     color: #3638d5;
     border-bottom: 4px solid #ffc516;
     cursor: pointer;
+    margin-top: 10%;
   }
 }
 
@@ -368,6 +370,7 @@ Bootstrap 4 breakpoints
     color: #3638d5;
     border-bottom: 4px solid white;
     cursor: pointer;
+    margin-top: 0;
   }
   .yelloSim {
     display: block;
@@ -559,6 +562,7 @@ Bootstrap 4 breakpoints
     color: #3638d5;
     border-bottom: 4px solid white;
     cursor: pointer;
+    margin-top: 0;
   }
   .yelloSim {
     width: 85%;
@@ -582,6 +586,7 @@ Bootstrap 4 breakpoints
   padding: 2.25rem 0;
   position: relative;
   will-change: transform;
+  z-index: 2;
 }
 
 .card:after {
@@ -653,8 +658,6 @@ Bootstrap 4 breakpoints
   font-weight: 500;
   color: white;
   border-radius: 1.25rem;
-  //width: 23%;
-  //height: 60%;
   margin: 10px auto;
 }
 
@@ -840,7 +843,6 @@ ul li.bold {
 .carousel-control-prev,
 .carousel-control-next {
   bottom: 10%;
-  /* font-size: 55px; */
 }
 
 .carousel-control-next-icon,
