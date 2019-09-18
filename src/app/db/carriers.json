@@ -9,7 +9,7 @@
       "price": "50",
       "paypalButtonId": "6EUPVGWCED8VC",
       "details": [
-        "For 1 week - 7 days",
+        "For 1 month - 30 days",
         "Unlimited calls in US",
         "Unlimited sms in US",
         "Unlimited 4G LTE",
@@ -40,7 +40,7 @@
       "price": "65",
       "paypalButtonId": "79GNJHL8U54LQ",
       "details": [
-        "For 1 week - 7 days",
+        "For 1 month - 30 days",
         "Unlimited calls in US",
         "Unlimited sms in US",
         "Unlimited 4G LTE",
@@ -98,36 +98,6 @@
         {
           "label": "After 22gb data may be slow down"
         }
-      ],
-      "show": false
-    },
-    {
-      "name": "Test",
-      "company": "Test",
-      "id": -1,
-      "pictureUrl": "",
-      "price": "0.1",
-      "paypalButtonId": "VU3MFB3QLXJGU",
-      "details": [
-        "For 1 week - 7 days",
-        "Unlimited calls in US",
-        "Unlimited sms in US",
-        "Unlimited 4G LTE",
-        "Unlimited hot-spot"
-      ],
-      "moreDetails": [
-        {
-          "label": "Works on At&t network",
-          "text": "Check coverage here",
-          "link": "https://www.h2owirelessnow.com/coverage"
-        },
-        {
-          "label": "Unlimited calls to 50+ countries",
-          "text": "Check countries here",
-          "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
-        },
-        { "label": "Unlimited text worldwide" },
-        { "label": "Unlimited data with 6GB 4G LTE*" }
       ],
       "show": false
     },

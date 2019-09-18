@@ -1,3 +1,105 @@
+@media (min-width: 350px) {
+  .reviewsBg {
+    width: 80%;
+    z-index: -1;
+    position: relative;
+  }
+  .carousel-caption {
+    position: relative !important;
+    left: auto;
+    right: auto;
+    top: -48vh;
+    width: 100%;
+  }
+  .reviwer {
+    font-weight: 500;
+    position: relative;
+    left: 16%;
+    top: 26%;
+    font-family: Montserrat;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .reviewPayload {
+    font-weight: 100 !important;
+    position: relative;
+    width: 70%;
+    left: 15%;
+    top: 30%;
+    font-family: Montserrat;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .reviewDate {
+    position: absolute;
+    font-weight: 500;
+    left: 15%;
+    font-family: Montserrat;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    bottom: 0;
+  }
+}
+@media (min-width: 950px) {
+  .reviewsBg {
+    width: 30vh;
+    z-index: -1;
+    position: relative;
+  }
+  .carousel-caption {
+    position: relative !important;
+    left: auto;
+    right: auto;
+    top: -35vh;
+    width: 100%;
+  }
+  .reviwer {
+    font-weight: 500;
+    position: relative;
+    left: 25%;
+    top: 26%;
+    font-family: Montserrat;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .reviewPayload {
+    font-weight: 100 !important;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 30%;
+    font-family: Montserrat;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .reviewDate {
+    position: relative;
+    font-weight: 500;
+    width: 20vw;
+    left: 25%;
+    top: 63%;
+    font-family: Montserrat;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+
 .wraper {
   display: -webkit-flex;
   /* Safari */
@@ -9,7 +111,6 @@
 
 .aboutUS {
   font-family: Montserrat;
-  font-size: 2.8vw;
   font-weight: 200 !important;
   text-align: center;
   color: #3638d5;
@@ -29,78 +130,34 @@
   letter-spacing: normal;
   text-align: left;
   color: #212529;
+  display: inline-grid;
+  margin-bottom: 10%;
 }
 
-.reviewsBg {
-  width: 40vh;
-  z-index: -1;
-  position: relative;
-  top: 7vh;
-}
+
 
 .box {
   position: relative;
 }
 
 .reviewHeader {
-  left: 24%;
-  top: 17%;
+  left: 27%;
+  top: 10%;
   position: absolute;
   font-family: Montserrat;
   font-weight: 500;
   font-style: italic;
   font-stretch: normal;
   line-height: 1;
+  margin-bottom: 3%;
   letter-spacing: normal;
   text-align: left;
   color: #ffc516;
 }
 
-.reviwer {
-  font-weight: 500;
-  position: relative;
-  left: 25%;
-  top: 26%;
-  font-family: Montserrat;
-  line-height: 1.36;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
 
-.reviewPayload {
-  font-weight: 100 !important;
-  position: relative;
-  width: 50%;
-  left: 25%;
-  top: 30%;
-  font-family: Montserrat;
-  line-height: 1.56;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
 
-.reviewDate {
-  position: relative;
-  font-weight: 500;
-  width: 20vw;
-  left: 25%;
-  top: 63%;
-  font-family: Montserrat;
-  line-height: 1.36;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
 
-.carousel-caption {
-  position: relative !important;
-  left: auto;
-  right: auto;
-  top: -40vh;
-  width: 100%;
-}
 
 .carousel-item {
   position: absolute;

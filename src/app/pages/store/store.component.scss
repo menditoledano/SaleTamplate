@@ -18,3 +18,8 @@
 .toggle:hover + .more-details {
   display: block;
 }
+
+.flex-wrapper > :nth-child(4),
+.flex-wrapper > :nth-child(5) {
+  width: 50%;
+}
