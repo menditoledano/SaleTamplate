@@ -1,54 +1,50 @@
 <div class="store-wrapper">
-  <div class="container">
-    <div class="row" >
+  <div class="container text-center">
+    <h1 class="plansHeader">PLANS</h1>
 
-
-          <div *ngFor="let carrier of carriers ; let i = index" class="col-sm-4" >
-            <div class="card mb-5 text-center">
-              <div class="title">
-                <img
-                  class="img-thumbnail img-fluid plans-image "
-                  [src]="carrier.pictureUrl"
-                />
-                <h1>{{ carrier.company }}</h1>
-              </div>
-              <div class="price">
-                <h3><sup>$ </sup>{{ carrier.price }}</h3>
-              </div>
-              <br />
-
-              <div class="option">
-                <ul>
-                  <li *ngFor="let currDetails of carrier.details" class="bold">
-                    {{ currDetails }}
+    <div class="row">
+      <div *ngFor="let carrier of carriers; let i = index" class="col-sm-4">
+        <div class="card mb-5 text-center">
+          <div class="title">
+            <img
+              class="img-thumbnail img-fluid plans-image "
+              [src]="carrier.pictureUrl"
+            />
+            <h1>{{ carrier.company }}</h1>
+          </div>
+          <div class="price">
+            <h3><sup>$ </sup>{{ carrier.price }}</h3>
+          </div>
+          <br />
+          <div class="option">
+            <ul>
+              <li *ngFor="let currDetails of carrier.details" class="bold">
+                {{ currDetails }}
+              </li>
+              <li (click)="clicked(i)">
+                <i class="material-icons">
+                  arrow_drop_down
+                </i>
+              </li>
+              <div *ngIf="carrier.show" class="more-details">
+                <div *ngFor="let currMoreDetails of carrier.moreDetails">
+                  <li>
+                    {{ currMoreDetails.label }}
                   </li>
-                  <li (click)="clicked(i)">
-                    <i class="material-icons">
-                      arrow_drop_down
-                    </i>
+                  <li>
+                    <a class="hyperLink" href="{{ currMoreDetails.link }}">{{
+                      currMoreDetails.text
+                    }}</a>
                   </li>
-                  <div *ngIf="carrier.show" class="more-details">
-                    <div *ngFor="let currMoreDetails of carrier.moreDetails">
-                      <li>
-                        {{ currMoreDetails.label }}
-                      </li>
-                      <li>
-                        <a
-                          class="hyperLink"
-                          href="{{ currMoreDetails.link }}"
-                          >{{ currMoreDetails.text }}</a
-                        >
-                      </li>
-                    </div>
-                  </div>
-
-                </ul>
-                <a [routerLink]="['/payment']" [state]="carrier">Order now</a>
+                </div>
               </div>
-            </div>
-            <br />
+            </ul>
+            <a [routerLink]="['/payment']" [state]="carrier">Order now</a>
           </div>
         </div>
+        <br />
       </div>
-      <img src="../../../assets/yelloSim.png" class="yelloSim" />
     </div>
+  </div>
+  <img src="../../../assets/yelloSim.png" class="yelloSim" />
+</div>
