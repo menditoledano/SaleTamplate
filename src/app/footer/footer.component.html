@@ -1,41 +1,40 @@
 <!-- FOOTER -->
 <div class="box">
-  <img src="../../assets/footer.png" class="footerImage ">
+  <img src="../../assets/bottomImage.png" class="footerImage " />
 
-  <div class="contactInfo">
-    <br>
-    <b>Sims 4 USA</b>
-    <br>
-    597 Empire Blvd
-    <br>
-    Brooklyn NY 11213
-    <br>
-    <br>
-    <b>Call Us</b>
-    <br>
-    +1 (802) 870-6770
-    <br>
-    <br>
-    <b>Email Us</b>
-    <br>
-    sales@sims4usa.com
-  </div>
+  <!--  <div class="contactInfo">-->
+  <!--    <br>-->
+  <!--    <b>Sims 4 USA</b>-->
+  <!--    <br>-->
+  <!--    597 Empire Blvd-->
+  <!--    <br>-->
+  <!--    Brooklyn NY 11213-->
+  <!--    <br>-->
+  <!--    <br>-->
+  <!--    <b>Call Us</b>-->
+  <!--    <br>-->
+  <!--    +1 (802) 870-6770-->
+  <!--    <br>-->
+  <!--    <br>-->
+  <!--    <b>Email Us</b>-->
+  <!--    <br>-->
+  <!--    sales@sims4usa.com-->
+  <!--  </div>-->
 
   <div class="quickLinks">
     <div class="title"><b>Quick Links</b></div>
-    <br>
-    Home
-    <br>
-    Plans
-    <br>
-    About Us
-    <br>
-    Contact Us
-    <br>
-    Blogs
-    <br>
-    Reviews
-    <br>
+    <span [routerLink]="['/']">Home</span>
+    <br />
+    <span [routerLink]="['/store']">Plans</span>
+    <br />
+    <span [routerLink]="['/about']">About Us</span>
+    <br />
+    <span [routerLink]="['/']" [fragment]="'contacts'">Contact Us</span>
+    <br />
+    <span [routerLink]="['/blog']">Blogs</span>
+    <br />
+    <span [routerLink]="['/about']">Reviews</span>
+    <br />
   </div>
 
   <div class="followUs">
@@ -44,25 +43,27 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <img src="../../assets/youTube.png" class="youtube ">
-          <img src="../../assets/facebook.png" class="facebook">
-          <img src="../../assets/instegram.png" class="instegram">
+          <img src="../../assets/youTube.png" class="youtube " />
+          <a href="https://www.facebook.com/sims4usa/"
+            ><img src="../../assets/facebook.png" class="facebook"
+          /></a>
+          <a href=" https://www.instagram.com/sims4usa/"
+            ><img src="../../assets/instegram.png" class="instegram"
+          /></a>
         </div>
       </div>
     </div>
-    <br>
-    <br>
+    <br />
+    <br />
 
     <div class="title"><b>Secure Payment</b></div>
-
   </div>
 </div>
 
-
-<br>
+<br />
 <footer class="footer">
-  <img src="../../../assets/grayLogo.png" class="grayLogo">
-  <p>&copy; 2018 Sims 4 Usa Company, Inc &middot; </p>
+  <img src="../../../assets/grayLogo.png" class="grayLogo" />
+  <p>&copy; 2018 Sims 4 Usa Company, Inc &middot;</p>
   <p class="float-left">
     <a href="#">Back to top</a>
   </p>

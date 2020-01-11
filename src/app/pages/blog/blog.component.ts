@@ -9,5 +9,7 @@ import * as blogs from '../../db/blogs.json';
 export class BlogComponent implements OnInit {
   constructor() {}
   blogs = blogs.data;
-  ngOnInit() {}
+  ngOnInit() {
+    window.scrollTo(0, 0);
+  }
 }

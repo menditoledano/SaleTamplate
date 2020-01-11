@@ -8,12 +8,9 @@ import * as reviewsData from '../../db/reviews.json';
   styleUrls: ['./about-page.component.scss']
 })
 export class AboutPageComponent implements OnInit {
-
-
-  constructor() { }
-reviews :Review[] = reviewsData.data;
-lo
+  constructor() {}
+  reviews: Review[] = reviewsData.data;
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
-
 }

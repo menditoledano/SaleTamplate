@@ -9,11 +9,9 @@
       "price": "50",
       "paypalButtonId": "6EUPVGWCED8VC",
       "details": [
-        "For 1 month - 30 days",
-        "Unlimited calls in US",
-        "Unlimited sms in US",
-        "Unlimited 4G LTE",
-        "Unlimited hot-spot"
+        "Unlimited calls & text within the USA",
+        "Unlimited text worldwide",
+        "Unlimited data with 5GB 4G LTE and then slows to 2G speed"
       ],
       "moreDetails": [
         {
@@ -25,9 +23,7 @@
           "label": "Unlimited calls to 50+ countries",
           "text": "Check countries here",
           "link": "https://buyh2oplan.com/2019/02/20/h2o-wireless-intl-destinations/"
-        },
-        { "label": "Unlimited text worldwide" },
-        { "label": "Unlimited data with 6GB 4G LTE*" }
+        }
       ],
       "show": false
     },
@@ -40,11 +36,9 @@
       "price": "65",
       "paypalButtonId": "79GNJHL8U54LQ",
       "details": [
-        "For 1 month - 30 days",
-        "Unlimited calls in US",
-        "Unlimited sms in US",
-        "Unlimited 4G LTE",
-        "Unlimited hot-spot"
+        "Unlimited calls & text within the USA",
+        "TRULY Unlimited 4G LTE data",
+        "Unlimited text worldwide"
       ],
       "moreDetails": [
         {
@@ -72,14 +66,13 @@
       "id": 3,
       "pictureUrl": "/assets/attLogoPlan.png",
       "iconUrl": "/assets/rocket.png",
-      "price": "85",
+      "price": "75",
       "paypalButtonId": "49U339MG7BDGS",
       "details": [
-        "For 1 month - 30 days",
-        "Unlimited calls in US",
-        "Unlimited sms in US",
-        "Unlimited 4G LTE",
-        "Unlimited hot-spot"
+        "30 day plan",
+        "Unlimited calls & text within the USA",
+        "Unlimited data 4G LTE",
+        "Unlimited calls and text to/from mexico and canada"
       ],
       "moreDetails": [
         {
@@ -107,10 +100,10 @@
       "id": 4,
       "pictureUrl": "/assets/attLogoPlan.png",
       "iconUrl": "/assets/rocket.png",
-      "price": "65",
-      "paypalButtonId": "49U339MG7BDGS",
+      "price": "60",
+      "paypalButtonId": "5C4WFZ6NWN9VL",
       "details": [
-        "For 2 weeks - 15 days",
+        "15 day plan",
         "Unlimited calls in US",
         "Unlimited sms in US",
         "Unlimited 4G LTE",
@@ -121,9 +114,6 @@
           "label": "Works on At&t network",
           "text": "Check coverage here",
           "link": "https://www.h2owirelessnow.com/coverage"
-        },
-        {
-          "label": "Unlimited calls and text to mexico and canada"
         },
         {
           "label": "Unlimited text worldwide",
@@ -142,10 +132,10 @@
       "id": 5,
       "pictureUrl": "/assets/attLogoPlan.png",
       "iconUrl": "/assets/rocket.png",
-      "price": "50",
-      "paypalButtonId": "49U339MG7BDGS",
+      "price": "45",
+      "paypalButtonId": "9EFQVG8UV6RTU",
       "details": [
-        "For 1 week - 7 days",
+        "7 day plan",
         "Unlimited calls in US",
         "Unlimited sms in US",
         "Unlimited 4G LTE",
